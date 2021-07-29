@@ -7,13 +7,12 @@ import model.RecordList
 import org.jsoup.Jsoup
 import java.time.LocalDate
 
-suspend fun main() {
-    println("Hello World!")
+suspend fun main(args: Array<String>) {
+    val userId = args.first().toInt()
     // TODO: スクレイピング中に表示するメッセージを考える
-    // TODO: consoleからの使用を考えているので、外部からユーザーIDを受け付けるようにする
     // TODO: スクレイピング時のマナーをちゃんとする
     withContext(Dispatchers.IO) {
-        val document = Jsoup.connect("https://bookmeter.com/users/739784/books/read").get()
+        val document = Jsoup.connect("https://bookmeter.com/users/$userId/books/read?page=1").get()
         var totalPages = 0
         val records = document.select(".group__book").map { element ->
             val dateString = element.select(".detail__date").first()!!.text()
@@ -25,7 +24,7 @@ suspend fun main() {
             totalPages += page
             val book = Book(title, Author(author), page)
             val splitDate = dateString.split("/").map(String::toInt)
-            Record(book = book, thoughts = "", date = LocalDate.of(splitDate[0], splitDate[1], splitDate[2]))
+            Record(book = book, date = LocalDate.of(splitDate[0], splitDate[1], splitDate[2]))
         }
         println(RecordList(recordsCount = records.size, totalPages = totalPages, records = records))
     }
