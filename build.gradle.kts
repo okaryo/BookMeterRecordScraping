@@ -14,6 +14,7 @@ repositories {
 
 dependencies {
     implementation("org.jsoup:jsoup:1.14.1")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.1")
     testImplementation(kotlin("test"))
 }
 

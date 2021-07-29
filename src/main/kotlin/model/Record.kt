@@ -1,9 +1,9 @@
 package model
 
-import java.util.*
+import java.time.LocalDate
 
 data class Record(
     val book: Book,
     val thoughts: String?,
-    val date: Date,
+    val date: LocalDate,
 )
