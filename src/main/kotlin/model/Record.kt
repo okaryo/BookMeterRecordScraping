@@ -4,5 +4,5 @@ import java.time.LocalDate
 
 data class Record(
     val book: Book,
-    val date: LocalDate,
+    val date: LocalDate?,
 )
