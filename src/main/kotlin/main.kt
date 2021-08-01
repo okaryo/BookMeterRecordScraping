@@ -8,23 +8,20 @@ import kotlinx.datetime.LocalDate
 import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
 import org.json.JSONObject
+import org.jsoup.nodes.Document
+import java.lang.StringBuilder
 
 @DelicateCoroutinesApi
 fun main(args: Array<String>) {
     val userId = args.first().toInt()
     // TODO: スクレイピング中に表示するメッセージを考える
+    val bookMeterHTMLScraping = BookMeterHTMLScraping(userId)
     var paginationPage = 1
     var totalPages = 0
     val records = mutableListOf<Record>()
-    var isLoopFinished = false
-    while (true) {
-        val document = Jsoup.connect("https://bookmeter.com/users/$userId/books/read?page=$paginationPage").get()
+    var document = bookMeterHTMLScraping.getHTMLDocument(paginationPage)
+    while (document.select(".group__book").isNotEmpty()) {
         GlobalScope.launch(Dispatchers.IO) {
-            if (document.select(".group__book").isNullOrEmpty()) {
-                isLoopFinished = true
-                this.cancel()
-            }
-
             val buildAndAddRecords = async {
                 document.select(".group__book").map { element ->
                     val dateString = element.select(".detail__date").first()!!.text()
@@ -48,10 +45,25 @@ fun main(args: Array<String>) {
             buildAndAddRecords.await()
             waitOneSecondForScrapingManners.await()
         }
+        // TODO: タイトル修正の際にリファクタ
+        val string = StringBuilder()
+        string.apply {
+            append("\r")
+            append("$paginationPage %")
+        }
+        print(string)
         paginationPage++
-        if (isLoopFinished) break
+        document = bookMeterHTMLScraping.getHTMLDocument(paginationPage)
     }
+    print("\r")
     val recordList = RecordList(recordsCount = records.size, totalPages = totalPages, records = records)
     val recordListJson = Json.encodeToString(recordList)
     println(JSONObject(recordListJson).toString(4))
+}
+
+// TODO: 後でリファクタ
+class BookMeterHTMLScraping(private val userId: Int) {
+    fun getHTMLDocument(paginationPage: Int): Document {
+        return Jsoup.connect("https://bookmeter.com/users/$userId/books/read?page=$paginationPage").get()
+    }
 }
