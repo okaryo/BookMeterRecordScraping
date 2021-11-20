@@ -2,7 +2,7 @@ name: Generate Book Record JSON
 on:
   push:
     branches:
-      - main
+      - master
 jobs:
   run:
     runs-on: ubuntu-latest
