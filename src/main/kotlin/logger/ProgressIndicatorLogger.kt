@@ -11,7 +11,7 @@ class ProgressIndicatorLogger(private val totalCount: Int) {
         val estimatedTime = totalCount * requestBufferSeconds * requestCountPerOneBookBuild + (totalCount / bookCountsPerReadBooksPage).toDouble().roundToInt()
         val text = StringBuilder().apply {
             append("\r")
-            append("Estimated: $estimatedTime Sec, Progress: $currentCount/$totalCount")
+            append("Estimated: ${estimatedTime}sec, Progress: $currentCount/$totalCount")
         }
         print(text)
     }
