@@ -25,7 +25,7 @@ class PageRepository(private val userId: Int) {
                 retryCount = 0
             } catch (e: Exception) {
                 retryCount++
-                if (retryCount == 5) throw e
+                if (retryCount == 5) throw Exception("Failed 5 times to fetch the ReadBooks page!")
             }
         }
         return document!!
@@ -47,7 +47,7 @@ class PageRepository(private val userId: Int) {
                 retryCount = 0
             } catch (e: Exception) {
                 retryCount++
-                if (retryCount == 5) throw e
+                if (retryCount == 5) throw Exception("Failed 5 times to fetch the Detail page!")
             }
         }
         return document!!
@@ -69,7 +69,7 @@ class PageRepository(private val userId: Int) {
                 retryCount = 0
             } catch (e: Exception) {
                 retryCount++
-                if (retryCount == 5) throw e
+                if (retryCount == 5) throw Exception("Failed 5 times to fetch the Review page!")
             }
         }
         return document!!
