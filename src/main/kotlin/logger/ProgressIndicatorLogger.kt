@@ -10,7 +10,7 @@ class ProgressIndicatorLogger(private val totalCount: Int) {
         val progressPercent = (currentCount / totalCount) * 100
         val text = StringBuilder().apply {
             append("\r")
-            append("Estimated: ${estimatedTime}Sec, Progress: $progressPercent%")
+            append("Estimated: $estimatedTime Sec, Progress: $progressPercent/$totalCount")
         }
         print(text)
     }
