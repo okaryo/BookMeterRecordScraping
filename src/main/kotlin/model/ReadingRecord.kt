@@ -4,7 +4,8 @@ import kotlinx.serialization.Serializable
 import kotlinx.datetime.LocalDate
 
 @Serializable
-data class Record(
+data class ReadingRecord(
     val book: Book,
+    val review: String?,
     val date: LocalDate?,
 )
