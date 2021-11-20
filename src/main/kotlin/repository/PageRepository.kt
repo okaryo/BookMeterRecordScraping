@@ -18,7 +18,7 @@ class PageRepository(private val userId: Int) {
             if (document != null) break
 
             try {
-                Thread.sleep(1000)
+                Thread.sleep(2000)
                 Jsoup.connect("$readBooksPageUrl?page=$paginationPage").timeout(10000).get().let {
                     document = it
                 }
@@ -40,7 +40,7 @@ class PageRepository(private val userId: Int) {
             if (document != null) break
 
             try {
-                Thread.sleep(1000)
+                Thread.sleep(2000)
                 Jsoup.connect(bookDetailPageUrl).timeout(10000).get().let {
                     document = it
                 }
@@ -62,7 +62,7 @@ class PageRepository(private val userId: Int) {
             if (document != null) break
 
             try {
-                Thread.sleep(1000)
+                Thread.sleep(2000)
                 Jsoup.connect(reviewPageUrl).timeout(10000).get().let {
                     document = it
                 }
