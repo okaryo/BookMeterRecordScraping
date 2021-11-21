@@ -5,10 +5,10 @@ import kotlin.math.roundToInt
 
 class ProgressIndicatorLogger(private val totalCount: Int) {
     fun log(currentCount: Int) {
-        val requestBufferSeconds = 2
-        val requestCountPerOneBookBuild = 2
+        val averageSecondsForOneRequestBuffer = 3
+        val averageRequestCountPerOneBookBuild = 2
         val bookCountsPerReadBooksPage = 20
-        val estimatedTime = totalCount * requestBufferSeconds * requestCountPerOneBookBuild + (totalCount / bookCountsPerReadBooksPage).toDouble().roundToInt()
+        val estimatedTime = totalCount * averageSecondsForOneRequestBuffer * averageRequestCountPerOneBookBuild + (totalCount / bookCountsPerReadBooksPage).toDouble().roundToInt()
         val text = StringBuilder().apply {
             append("\r")
             append("Estimated: ${estimatedTime}sec, Progress: $currentCount/$totalCount")
