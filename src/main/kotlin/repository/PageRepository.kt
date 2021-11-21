@@ -7,7 +7,7 @@ import kotlin.system.exitProcess
 class PageRepository(private val userId: Int) {
     companion object {
         const val baseUrl = "https://bookmeter.com"
-        const val maxRetry = 10
+        const val maxRetry = 20
     }
 
     fun getReadBooksPageDocument(paginationPage: Int): Document {
@@ -41,6 +41,7 @@ class PageRepository(private val userId: Int) {
             } catch (e: Exception) {
                 retryCount++
                 if (retryCount == maxRetry) {
+                    print("\r")
                     println("Failed $maxRetry times to fetch the Review page!")
                     exitProcess(1)
                 }
