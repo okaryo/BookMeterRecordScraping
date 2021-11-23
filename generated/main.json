@@ -1,5 +1,5 @@
 {
-    "recordsCount": 756,
+    "recordsCount": 248577,
     "records": [
         {
             "date": "2021-11-06",
@@ -7560,7 +7560,597 @@
                 "title": "知の逆転 (NHK出版新書)",
                 "url": "https://www.amazon.co.jp/dp/product/4140883952/ref=as_li_tf_tl?camp=247&creative=1211&creativeASIN=4140883952&ie=UTF8&linkCode=as2&tag=bookmeter_book_image_image_pc_logoff-22"
             }
+        },
+        {
+            "date": "2021-11-06",
+            "review": "kindleにて。Windows NTの生々しい開発物語。ちょうど今の自分もリリースがもうすぐの開発を担当しているので、本書の後半の方はすごく共感しながら読めた。開発のリーダーであるカトラーがマイクロソフトに引き抜かれたのは46歳でバリバリコードを書いているし、今でもAzureの開発をしているようだしでエンジニア35歳定年説なんて嘘っぱちだと実感した。本書は多くの方からインタビューしているだけあって開発の現場が生々しく描かれていて面白く、読むたびに自分にも闘志を奮い立たせてくれる良書だった。",
+            "book": {
+                "author": {"name": "G パスカル ザカリー"},
+                "page": 455,
+                "title": "闘うプログラマー［新装版］　ビル・ゲイツの野望を担った男達(Kindle)",
+                "url": "https://www.amazon.co.jp/dp/product/B00GSHI04M/ref=as_li_tf_tl?camp=247&creative=1211&creativeASIN=B00GSHI04M&ie=UTF8&linkCode=as2&tag=bookmeter_book_image_image_pc_logoff-22"
+            }
+        },
+        {
+            "date": "2021-10-28",
+            "review": "再読。ちょうど1年前の同時期に読んでいたが、当時と比べるとオブジェクト指向や設計が少しはわかるようになってきたなと成長を感じた。今読むとかなり良い本だと実感できて、DDDや設計原則の考え方が至るところに散りばめられていて、それでいて初学者の方にも分かりやすいように書かれている。今回はYouTubeのミライトさんの「技術書の読み方」の動画と一緒に読んだが、さらに理解も深まるので合わせて見てみるとおすすめ。",
+            "book": {
+                "author": {"name": "増田 亨"},
+                "page": 320,
+                "title": "現場で役立つシステム設計の原則 ~変更を楽で安全にするオブジェクト指向の実践技法",
+                "url": "https://www.amazon.co.jp/dp/product/477419087X/ref=as_li_tf_tl?camp=247&creative=1211&creativeASIN=477419087X&ie=UTF8&linkCode=as2&tag=bookmeter_book_image_image_pc_logoff-22"
+            }
+        },
+        {
+            "date": "2021-10-09",
+            "review": "Zennで初めて購入。Providerの種類から実践的な使い方まで書かれており、情報も新しいものを取り入れているので、これからRiverpodを使おうという方におすすめ。自分はすでにRiverpodとStateNotiferを使っており、状態管理の色々な苦悩の解決を期待して読んだが、そこまで踏み入った内容はなかったので、本当にタイトルの通り実践入門をする方向けの本。",
+            "book": {
+                "author": {"name": "村松龍之介"},
+                "page": 0,
+                "title": "Flutter x Riverpod でアプリ開発！実践入門",
+                "url": "https://zenn.dev/riscait/books/flutter-riverpod-practical-introduction"
+            }
+        },
+        {
+            "date": "2021-10-03",
+            "review": "IDDD本の章の流れに沿って重要なトピックを解説していく本。設計や実装の参考にもなったし、当時ほとんどわからなかったIDDD本の内容が少しは理解できた気がした。IDDD本も読み返してみたい。また、ついつい技術的な設計や実装に目がいってしまうが、個人的にはDDDの目的であるコアドメインの発見と集中、事業価値の向上・創出みたいな部分をわかってできるようになっていきたい。",
+            "book": {
+                "author": {"name": "青木 淳夫"},
+                "page": 184,
+                "title": "「実践ドメイン駆動設計」から学ぶDDDの実装入門 (CodeZine Digital First)",
+                "url": "https://www.amazon.co.jp/dp/product/4798161500/ref=as_li_tf_tl?camp=247&creative=1211&creativeASIN=4798161500&ie=UTF8&linkCode=as2&tag=bookmeter_book_image_image_pc_logoff-22"
+            }
+        },
+        {
+            "date": "2021-09-25",
+            "review": "設計に強い方が方がおすすめされていたので読んでおいた。1年くらい積読していたが、さっさと読んでおいた方が良かったと思うくらい良書だった。プログラミングにおいて前提となる原理原則が数多く紹介されているが、それぞれの概要だけでなく、なぜそれが原理原則となったかの背景や、それらの適用場面、発展や関連も統一された文書フォーマットに沿って一緒に記載されており、とても分かりやすく納得感のある解説だった。自分のような初心者にもおすすめだし、いつか再読したい本。",
+            "book": {
+                "author": {"name": "上田 勲"},
+                "page": 304,
+                "title": "プリンシプル オブ プログラミング3年目までに身につけたい一生役立つ101の原理原則",
+                "url": "https://www.amazon.co.jp/dp/product/4798046140/ref=as_li_tf_tl?camp=247&creative=1211&creativeASIN=4798046140&ie=UTF8&linkCode=as2&tag=bookmeter_book_image_image_pc_logoff-22"
+            }
+        },
+        {
+            "date": "2021-09-19",
+            "review": "設計の勉強の過程で読んだ。業務では一つのイシューごとに実装を行なっており、ここまで設計図を書いて設計レビューを行うようなことをしたことがなかったのでかなり新鮮な世界だった。本書の内容は新規プロジェクトの立ち上げやデカ目の機能追加向けのような印象を持ったが、大きめのイシューに対応する際はロバストネス図やクラス図を事前に作っておくと実装がとても楽になりそうだと感じた。",
+            "book": {
+                "author": {"name": "ダグ・ローゼンバーグ,Doug Rosenberg,三河 淳一,船木 健児"},
+                "page": 512,
+                "title": "ユースケース駆動開発実践ガイド (OOP Foundations)",
+                "url": "https://www.amazon.co.jp/dp/product/4798114456/ref=as_li_tf_tl?camp=247&creative=1211&creativeASIN=4798114456&ie=UTF8&linkCode=as2&tag=bookmeter_book_image_image_pc_logoff-22"
+            }
+        },
+        {
+            "date": "2021-09-01",
+            "review": "社内の輪読会で再読。一度目を読んだ時とは違って今はモバイル開発をしているのでCSSやJSの話はあまり熱心に読めなかったが、再描画を抑えたり、計測をすることでボトルネックを特定する姿勢や認知的チューニングなどはWeb・モバイル問わず通じる実践法なので大事にしていきたい。また、本書ではブラウザのレンダリングの仕組みから解説しているが、そういったプラットフォームの基礎を把握しておくことはどこの分野でも重要だと実感している。",
+            "book": {
+                "author": {"name": "久保田 光則"},
+                "page": 352,
+                "title": "Webフロントエンド ハイパフォーマンス チューニング",
+                "url": "https://www.amazon.co.jp/dp/product/4774189677/ref=as_li_tf_tl?camp=247&creative=1211&creativeASIN=4774189677&ie=UTF8&linkCode=as2&tag=bookmeter_book_image_image_pc_logoff-22"
+            }
+        },
+        {
+            "date": "2021-08-29",
+            "review": "先日読んだ『パターン、Wiki、XP』の中でデザインパターンの原本として紹介されていたので読んだ。第１章と第２章の概論と事例では、デザインパターンの背景や設計への適用がわかりやすく書かれていて面白かった。カタログ部分ではそのパターンの目的や動機、適用可能性、構造、実装がテンプレートに沿って丁寧に書かれていた。サンプルコードはC++やSmalltalkだったので、結城先生のJava版と一緒に読んだ。変更に強いプログラムを作るという設計の本質は今も昔も変わっていないことを強く感じた。",
+            "book": {
+                "author": {"name": "エリック ガンマ,ラルフ ジョンソン,リチャード ヘルム,ジョン ブリシディース"},
+                "page": 414,
+                "title": "オブジェクト指向における再利用のためのデザインパターン",
+                "url": "https://www.amazon.co.jp/dp/product/4797311126/ref=as_li_tf_tl?camp=247&creative=1211&creativeASIN=4797311126&ie=UTF8&linkCode=as2&tag=bookmeter_book_image_image_pc_logoff-22"
+            }
+        },
+        {
+            "date": "2021-08-22",
+            "review": "再読。ちょうど1年前の今日に読み終わっていて少し感動。当時よりもオブジェクト指向を勉強し、Ruby以外で静的型付け言語に触れ、設計の勉強をした今になって読むと、設計の目的が変更コストの削減にあるという方針に則って書かれている本書はすごく納得感を持ちながら読めたし、インターフェースや依存関係の整理の話は当時よりも身近に感じながら読めた。",
+            "book": {
+                "author": {"name": "Sandi Metz"},
+                "page": 304,
+                "title": "オブジェクト指向設計実践ガイド ~Rubyでわかる 進化しつづける柔軟なアプリケーションの育て方",
+                "url": "https://www.amazon.co.jp/dp/product/477418361X/ref=as_li_tf_tl?camp=247&creative=1211&creativeASIN=477418361X&ie=UTF8&linkCode=as2&tag=bookmeter_book_image_image_pc_logoff-22"
+            }
+        },
+        {
+            "date": "2021-08-21",
+            "review": "Boothにて購入。Riverpodを使った状態管理を現在作成中のアプリでも使っており、基本的な使い方を押さえておきたいと思い読んだ。2,3章は公式ドキュメントに書いてあった内容とかなり近かった。4章の実践的な使い方はテーマや認証情報を状態として扱ったコードが書かれており個人的には面白っかったが、ほとんどコードのみで解説がなく、人によっては不親切に感じるかもしれないと思った。当初の目的の基本的な使い方を押さえることはできたので満足。",
+            "book": {
+                "author": {"name": "岡花 智貴"},
+                "page": 77,
+                "title": "入門 Riverpod",
+                "url": "https://www.amazon.co.jp/dp/product/B09754L28H/ref=as_li_tf_tl?camp=247&creative=1211&creativeASIN=B09754L28H&ie=UTF8&linkCode=as2&tag=bookmeter_book_image_image_pc_logoff-22"
+            }
+        },
+        {
+            "date": "2021-08-15",
+            "review": "競プロのリハビリも兼ねてコードを書きながらやってみた。アルゴリズムの解説と一緒に例題もあり、図解や問題を解く考え方も一緒に載っていて分かりやすかった。コードはPythonだが、他の言語に触ったことがあれば難なく読めると思われる。個人的には動的計画法やグラフ、経路問題の考え方が整理できて良かった。複数のアルゴリズムが絡んだり、複雑な状態定義を持つ動的計画法などは、まだまだ自分はすぐ解法を思いつくことができないのでどんどん問題を解いて解けるようになりたい。",
+            "book": {
+                "author": {"name": "岩下 真也,中村 謙弘"},
+                "page": 384,
+                "title": "アルゴリズム実技検定 公式テキスト[エントリー~中級編] (Compass Booksシリーズ)",
+                "url": "https://www.amazon.co.jp/dp/product/483997277X/ref=as_li_tf_tl?camp=247&creative=1211&creativeASIN=483997277X&ie=UTF8&linkCode=as2&tag=bookmeter_book_image_image_pc_logoff-22"
+            }
+        },
+        {
+            "date": "2021-08-14",
+            "review": "Flutterの全体像を押さえておきたくて読んだ。たくさんのWidgetが紹介されているし、ライブラリやFlutterの内部構造、アーキテクチャまで触れられていてかなり幅広かった。読みたいところだけ読むといった辞書的な使い方もできそう。",
+            "book": {
+                "author": {"name": "石井 幸次"},
+                "page": 464,
+                "title": "基礎から学ぶ Flutter",
+                "url": "https://www.amazon.co.jp/dp/product/4863542941/ref=as_li_tf_tl?camp=247&creative=1211&creativeASIN=4863542941&ie=UTF8&linkCode=as2&tag=bookmeter_book_image_image_pc_logoff-22"
+            }
+        },
+        {
+            "date": "2021-08-09",
+            "review": "業務でJUnitっぽいテスティングフレームワークを使っていることと、設計する上でのテストの重要性に最近注目していることから読んだおいた。JUnitの基本機能から、関連ツール、ビルドツール、CI、TDD、BDDと段階的に解説があり、最後に演習問題が何問か置かれている。基礎知識を体型的に身につけられ、テストの意義や実践にまで触れられるのでためになった。",
+            "book": {
+                "author": {"name": "渡辺 修司"},
+                "page": 480,
+                "title": "JUnit実践入門 ~体系的に学ぶユニットテストの技法 (WEB+DB PRESS plus)",
+                "url": "https://www.amazon.co.jp/dp/product/477415377X/ref=as_li_tf_tl?camp=247&creative=1211&creativeASIN=477415377X&ie=UTF8&linkCode=as2&tag=bookmeter_book_image_image_pc_logoff-22"
+            }
+        },
+        {
+            "date": "2021-08-07",
+            "review": "アウトカムではなくアウトプットに集中してしまうビルドトラップに多くの組織が陥っている現状を指摘した上で、プロダクトマネージャーの役割を明確にし、プロダクトの成功を導くための戦略や組織のあり方を解説する。プロダクトを作る過程だけでなく、それを事業や組織と結びつけて解説していたので面白く読めた。モノづくりに関わる人であれば読むのをおすすめしたい本。",
+            "book": {
+                "author": {"name": "Melissa Perri"},
+                "page": 224,
+                "title": "プロダクトマネジメント \u2015ビルドトラップを避け顧客に価値を届ける",
+                "url": "https://www.amazon.co.jp/dp/product/4873119251/ref=as_li_tf_tl?camp=247&creative=1211&creativeASIN=4873119251&ie=UTF8&linkCode=as2&tag=bookmeter_book_image_image_pc_logoff-22"
+            }
+        },
+        {
+            "date": "2021-08-05",
+            "review": "Flutterを本格的に学習するにあたり、まずは書籍で全体像を掴みたいなと思って読んだ。内容としては本当に初めてFlutterを触る方向けで、自分が欲しいものはなかった。初めてFlutterに触る方であれば、インストールからFlutterの基本、Dartの基礎、Firebase、実例としてチャットアプリの作成が書かれているので内容的には良いと思う。",
+            "book": {
+                "author": {"name": "新井 克人"},
+                "page": 215,
+                "title": "はじめてのFlutter (I・O BOOKS)",
+                "url": "https://www.amazon.co.jp/dp/product/4777521311/ref=as_li_tf_tl?camp=247&creative=1211&creativeASIN=4777521311&ie=UTF8&linkCode=as2&tag=bookmeter_book_image_image_pc_logoff-22"
+            }
+        },
+        {
+            "date": "2021-08-04",
+            "review": "モバイルの知識をつける一環で読んだ。モバイルデザインにおける良さやアンチパターンがたくさんのアプリUIが豊富な画像とともに解説されていて面白かった。ただし、第2版ではあるがデザインが結構古くなっている。UI/UXに関するエッセンスは学ぶことができたので、今後のアプリ開発や、日常でアプリを使用する中でそれらを意識していきたい。",
+            "book": {
+                "author": {"name": "Theresa Neil"},
+                "page": 416,
+                "title": "モバイルデザインパターン 第2版 \u2015ユーザーインタフェースのためのパターン集",
+                "url": "https://www.amazon.co.jp/dp/product/4873117038/ref=as_li_tf_tl?camp=247&creative=1211&creativeASIN=4873117038&ie=UTF8&linkCode=as2&tag=bookmeter_book_image_image_pc_logoff-22"
+            }
+        },
+        {
+            "date": "2021-07-26",
+            "review": "試験勉強の一環で読んだ。戦後から第二次安倍内閣までの政治状況を辿りながら、その時々の憲法に対する世論を多くの世論調査から読み解いていく。憲法改正といっても9条や首相公選制、天皇制など多様な論点があり、憲法改正に賛成か反対かという質問だけでは適切な世論は掴むことはできなという観点から、当時の世論を調査データから実証的に分析していく。その姿勢は最初から最後まで一貫しており、とても読みやすく面白く読むことができた。",
+            "book": {
+                "author": {"name": "境家 史郎"},
+                "page": 318,
+                "title": "憲法と世論: 戦後日本人は憲法とどう向き合ってきたのか (筑摩選書)",
+                "url": "https://www.amazon.co.jp/dp/product/4480016562/ref=as_li_tf_tl?camp=247&creative=1211&creativeASIN=4480016562&ie=UTF8&linkCode=as2&tag=bookmeter_book_image_image_pc_logoff-22"
+            }
+        },
+        {
+            "date": "2021-07-24",
+            "review": "面白かった！最初の方にも書いてあったがAmazonやGoogleといったバカデカイ企業の話ではなく、現実的で泥臭く共感できるエンジニアの話だった。技術的な話もあるが、事業的な話に重心があり、それをエンジニアリングでどう繋げどう伸ばしていくかという話にワクワクさせられた。自分ももっと技術力伸ばして事業をスケールできるエンジニアになりたいなあ。",
+            "book": {
+                "author": {"name": ""},
+                "page": 224,
+                "title": "Engineers in VOYAGE \u2015 事業をエンジニアリングする技術者たち",
+                "url": "https://www.amazon.co.jp/dp/product/4908686092/ref=as_li_tf_tl?camp=247&creative=1211&creativeASIN=4908686092&ie=UTF8&linkCode=as2&tag=bookmeter_book_image_image_pc_logoff-22"
+            }
+        },
+        {
+            "date": "2021-07-24",
+            "review": "試験対策用に読んだ。会社法の全体観を掴むのにはちょうど良かった。会社法を取り巻く利害関係者は多いし、それらを調整するために押さえるべきポイントは多いし、試験勉強が大変そうだ。。このシリーズを通して言えることだが、巻末索引がなくて本当に不便なのだが、つけない意図はなんなんだろう。",
+            "book": {
+                "author": {"name": "伊藤 真"},
+                "page": 228,
+                "title": "伊藤真の会社法入門 講義再現版",
+                "url": "https://www.amazon.co.jp/dp/product/4535524491/ref=as_li_tf_tl?camp=247&creative=1211&creativeASIN=4535524491&ie=UTF8&linkCode=as2&tag=bookmeter_book_image_image_pc_logoff-22"
+            }
+        },
+        {
+            "date": "2021-07-18",
+            "review": "状態管理について勉強したくて読んでみた。思っていたほどの収穫はなかったが、一緒に載っていた特集のgraphqlがとても便利そうで面白かった。こういった技術系の月刊誌は初めてちゃんと読んだが、いろんな連載が載っていていろんな分野の知識に触れることができて面白かった。ただ、連載は連載で途中から読むことになるので今後も続けてよんでいきたい。",
+            "book": {
+                "author": {"name": "三木 聡一郎,森田 勝駿,岡島 美咲,立花 豊,伊藤 竜一,サリチル酸,結城 浩,山川 正美,大串 肇,松本 直人,清水 洋治,くつなりょうすけ,金谷 敦志,中島 雅弘,広田 望,松田 佳希,田中 宗,広木 大地,下澤 弓恵,梶原 直人,小林 太一,星川 真麻,けんちょん(大槻 兼資),山下 祐生,職業「戸倉彩」,滝澤 照太,森若 和雄,大隈 峻太郎,やまねひでき,法林 浩之,関 治之,杉山 貴章"},
+                "page": 184,
+                "title": "ソフトウェアデザイン 2021年8月号",
+                "url": "https://www.amazon.co.jp/dp/product/B0971NZZT4/ref=as_li_tf_tl?camp=247&creative=1211&creativeASIN=B0971NZZT4&ie=UTF8&linkCode=as2&tag=bookmeter_book_image_image_pc_logoff-22"
+            }
+        },
+        {
+            "date": "2021-07-16",
+            "review": "最近ストレスの大きい仕事に向き合っているのでうまくストレスに対処できるようになりたいと思い、銀座Railsで紹介されていたこの本を読んでみた。ストレスを成長するために必要というものとして扱い、それを踏まえた上でのストレスとの付き合い方や日常の過ごし方を実践的に紹介していてドンピシャな本だった。紹介されていたプラクティスをしばらく実践してみたところ、かつてよりも落ち着いた精神状態で過ごせていると思う。",
+            "book": {
+                "author": {"name": "ジム・E. レーヤー"},
+                "page": 318,
+                "title": "メンタル・タフネス\u2015ストレスで強くなる",
+                "url": "https://www.amazon.co.jp/dp/product/4484981076/ref=as_li_tf_tl?camp=247&creative=1211&creativeASIN=4484981076&ie=UTF8&linkCode=as2&tag=bookmeter_book_image_image_pc_logoff-22"
+            }
+        },
+        {
+            "date": "2021-07-13",
+            "review": "試験用にまず読んだ。前半は憲法との関係の中での行政法が扱われ、後半で基本の３分野が扱われている。全体像と基本を押さえるにはちょうどいい内容だったと思う。",
+            "book": {
+                "author": {"name": "伊藤 真"},
+                "page": 174,
+                "title": "伊藤真の行政法入門　第２版 (講義再現版)",
+                "url": "https://www.amazon.co.jp/dp/product/4535521190/ref=as_li_tf_tl?camp=247&creative=1211&creativeASIN=4535521190&ie=UTF8&linkCode=as2&tag=bookmeter_book_image_image_pc_logoff-22"
+            }
+        },
+        {
+            "date": "2021-07-06",
+            "review": "Audibleにて。粘菌やバッタから始まり現代人への食生活と食欲へとつながる解説は、実例に満ちていて論理的で科学的でとても納得感があって分かりやすく面白かった。生物とタンパク質の関係はとても興味深かったが、現代人の食環境においてはその他の栄養素の過剰摂取や肥満につながることにもなり、ついついオヤツに手を伸ばしてしまう自分の食生活を見直してみようと思わされた。",
+            "book": {
+                "author": {"name": "デイヴィッド・ローベンハイマー,スティーヴン・J・シンプソン"},
+                "page": 367,
+                "title": "科学者たちが語る食欲",
+                "url": "https://www.amazon.co.jp/dp/product/4763137921/ref=as_li_tf_tl?camp=247&creative=1211&creativeASIN=4763137921&ie=UTF8&linkCode=as2&tag=bookmeter_book_image_image_pc_logoff-22"
+            }
+        },
+        {
+            "date": "2021-07-05",
+            "review": "Kindleにて。銀座Railsでt_wadaさんがパターンについての入門書として本書を紹介されていたので読んだみたが、とても面白かった。パターンの起源が建築家アレグザンダーとその思想から始まり、歴史的な流れを追いながらソフトウェア業界との繋がりに至り、そこからの発展や派生を解説する。パターンやXPというものがどういった歴史的背景から生まれたのか、それらに対する創始者の考えを掴むことができたことで、今までよりもまでよりも腑に落とすことができ見え方が変わったような気がする。",
+            "book": {
+                "author": {"name": "江渡 浩一郎"},
+                "page": 300,
+                "title": "パターン、Wiki、XP \u2015\u2015 時を超えた創造の原則 WEB+DB PRESS plus(Kindle)",
+                "url": "https://www.amazon.co.jp/dp/product/B07JJN5NBY/ref=as_li_tf_tl?camp=247&creative=1211&creativeASIN=B07JJN5NBY&ie=UTF8&linkCode=as2&tag=bookmeter_book_image_image_pc_logoff-22"
+            }
+        },
+        {
+            "date": "2021-06-26",
+            "review": "Audibleにて。人間の認知バイアスに関する様々な事例や研究をわかりやすく面白く解説する。もっと知りたい人向けにブックガイドもあって良かった。人間の脳や心の摩訶不思議さは本当に面白い。この分野の本を読むたびに謙虚になれている気がする。ふと思ったが人間以外にも同じようなことは起こるんだろうか。",
+            "book": {
+                "author": {"name": "鈴木 宏昭"},
+                "page": 264,
+                "title": "認知バイアス 心に潜むふしぎな働き (ブルーバックス)",
+                "url": "https://www.amazon.co.jp/dp/product/4065219515/ref=as_li_tf_tl?camp=247&creative=1211&creativeASIN=4065219515&ie=UTF8&linkCode=as2&tag=bookmeter_book_image_image_pc_logoff-22"
+            }
+        },
+        {
+            "date": "2021-06-25",
+            "review": "Kindleにて。2017年出版のため少し古い情報もあるが、モバイル開発における基本的な知識を知りたい自分にとって実践的でとてもためになった。iOSの状況や知識にも触れることができた。Web業界も技術の変遷が早かったが、モバイル業界も同様に変遷が早く、技術の習得というものは大変だとしみじみ感じた。",
+            "book": {
+                "author": {"name": "山戸 茂樹,坂田 晃一,黒川 洋,藤田 琢磨,山田 航,田坂 和暢,熊谷 知子,森本 利博,坂本 和大,小形 昌樹,鈴木 大貴,志甫 侑紀"},
+                "page": 192,
+                "title": "モバイルアプリ開発エキスパート養成読本 (Software Design plus)",
+                "url": "https://www.amazon.co.jp/dp/product/4774188638/ref=as_li_tf_tl?camp=247&creative=1211&creativeASIN=4774188638&ie=UTF8&linkCode=as2&tag=bookmeter_book_image_image_pc_logoff-22"
+            }
+        },
+        {
+            "date": "2021-06-23",
+            "review": "Audibleにて。成功とは生まれ持った才能ではなく、粘り強い継続的な努力によって得られるというのはとても勇気をもらえる内容だった。一方で、この本でも人生における成功を重要視しているが、自分の人生への納得感さえあればどんな生き方をしてもいいんじゃないかとも個人的には思う。",
+            "book": {
+                "author": {"name": "アンジェラ・ダックワース"},
+                "page": 376,
+                "title": "やり抜く力 GRIT(グリット)\u2015\u2015人生のあらゆる成功を決める「究極の能力」を身につける",
+                "url": "https://www.amazon.co.jp/dp/product/4478064806/ref=as_li_tf_tl?camp=247&creative=1211&creativeASIN=4478064806&ie=UTF8&linkCode=as2&tag=bookmeter_book_image_image_pc_logoff-22"
+            }
+        },
+        {
+            "date": "2021-06-22",
+            "review": "2014年年末刊行なので内容としてはかなり古いが、モバイル開発初心者の自分としてはモバイル開発において気をつけるべきことを少しでも知りたかったので、その点は実現されたので良かった。ダメコードや端末対応の理想と現実、UCD、Gradleなどタイトル通り実践的で現場よりのプラクティスを知ることができた。",
+            "book": {
+                "author": {"name": "TechBooster"},
+                "page": 120,
+                "title": "Android実践プログラミング 現場で生まれた設計パターン",
+                "url": "https://www.amazon.co.jp/dp/product/4798147036/ref=as_li_tf_tl?camp=247&creative=1211&creativeASIN=4798147036&ie=UTF8&linkCode=as2&tag=bookmeter_book_image_image_pc_logoff-22"
+            }
+        },
+        {
+            "date": "2021-06-19",
+            "review": "Boothで購入。Flutterの概要と内部アーキテクチャを扱っている。Flutterの書き方やアプリの作り方みたいな部分は扱っていないので、Flutterを触ったことがある方が少し内部の仕組みを知りたくなったときに読んでみるのが良さそう。個人的にはFlutter Engineの部分があまり頭に入らなかったが、全体としてはFlutterの内部アーキテクチャを把握できたので収穫だった。",
+            "book": {
+                "author": {"name": "Kurun"},
+                "page": 85,
+                "title": "Flutter アーキテクチャ ガイド （第2版）",
+                "url": "https://kurun.booth.pm/items/2396643"
+            }
+        },
+        {
+            "date": "2021-06-15",
+            "review": "再読。1年ほど前に1度読んだが、あの頃とは違って今ではCleanArchitectureで実際に実装しているし、他にももっと勉強したので当時より内容がすんなり入ってきた。特にポリモーフィズムと依存性逆転のつながりには感動した。CleanArchitecutreを意識しながら読むと(当たり前だが)全ての章がCleanArchitectureにつながっていて、点と線がつながる思いで、ますます名著だなと感じた。設計関連の本は読めば読むほど味が出るスルメなのでまた1年後くらいに再読したい。",
+            "book": {
+                "author": {"name": "Robert C.Martin"},
+                "page": 352,
+                "title": "Clean Architecture 達人に学ぶソフトウェアの構造と設計",
+                "url": "https://www.amazon.co.jp/dp/product/4048930656/ref=as_li_tf_tl?camp=247&creative=1211&creativeASIN=4048930656&ie=UTF8&linkCode=as2&tag=bookmeter_book_image_image_pc_logoff-22"
+            }
+        },
+        {
+            "date": "2021-06-09",
+            "review": "会社の輪読会で再読。今はMVCだけでなく、CleanArchitectureやMVVMの実装経験もあるので、当時と比べると読んで内容がすんなり入ってきやすかった。いつかFluxやReduxでも実装してみたい。設計の本は読めば読むほど味が出るオススメのスルメ。",
+            "book": {
+                "author": {"name": "関 義隆,松館 大輝,史翔新 田中賢治 鈴木大貴 杉上洋平"},
+                "page": 320,
+                "title": "iOSアプリ設計パターン入門",
+                "url": "https://peaks.cc/books/iOS_architecture"
+            }
+        },
+        {
+            "date": "2021-06-08",
+            "review": "Androidの学習ロードマップのおすすめにあったので読んでみた。Androidのバージョンアップデートによって内容が古くなっているが、初学者の自分にとってはどんなUIや操作系のクラスがAndroidにあるのかを広く知れて良かった。",
+            "book": {
+                "author": {"name": "あんざい ゆき"},
+                "page": 360,
+                "title": "Android UI Cookbook for 4.0 ICS（Ice Cream Sandwich）アプリ開発術",
+                "url": "https://www.amazon.co.jp/dp/product/4844331744/ref=as_li_tf_tl?camp=247&creative=1211&creativeASIN=4844331744&ie=UTF8&linkCode=as2&tag=bookmeter_book_image_image_pc_logoff-22"
+            }
+        },
+        {
+            "date": "2021-05-29",
+            "review": "vimに少し慣れてきたタイミングで読み始めた。物理本が欲しかったが手に入らなかったので原書を選んだ。毎日少しずつ読み、読んだ箇所の操作を試してみて、を繰り返した。先輩に無理やりエディタをvimにされて使い始めて1ヶ月たったが慣れるとかなり良い感じ。無理やりにでもされないとあの特殊な学習曲線を持つエディタにはなかなかとっつきづらいだろう。本書のサブタイトルにあるように思考のスピードで編集できるようにもっと使いこなせるようになりたい。",
+            "book": {
+                "author": {"name": "Drew Neil"},
+                "page": 356,
+                "title": "Practical Vim: Edit Text at the Speed of Thought",
+                "url": "https://www.amazon.co.jp/dp/product/1680501275/ref=as_li_tf_tl?camp=247&creative=1211&creativeASIN=1680501275&ie=UTF8&linkCode=as2&tag=bookmeter_book_image_image_pc_logoff-22"
+            }
+        },
+        {
+            "date": "2021-05-14",
+            "review": "会社に置いてあったので読んでみた。良い設計をできるようになりたいので、それに関する部分を重点的に拾って読んだ。関数の粒度の話や、コードの重複ではなく処理の重複に着目する話など参考になる部分がいくつかあった。また、プログラムを書くことももちろん大事だが、他の人のコードを読む大切さや良い技術書をしっかりと読み込む大切さも再確認できた。そのあたりにも視点を広げていきたい。",
+            "book": {
+                "author": {"name": "縣 俊貴"},
+                "page": 240,
+                "title": "良いコードを書く技術　－読みやすく保守しやすいプログラミング作法 (WEB+DB PRESS plus)",
+                "url": "https://www.amazon.co.jp/dp/product/4774145963/ref=as_li_tf_tl?camp=247&creative=1211&creativeASIN=4774145963&ie=UTF8&linkCode=as2&tag=bookmeter_book_image_image_pc_logoff-22"
+            }
+        },
+        {
+            "date": "2021-05-09",
+            "review": "再読。ちょうど1年前の同じ時期に読んでいた。読んだ当時ほど新たな発見はなかったが、スモールイズビューティフルや素早い試作の作成、移植性の重視、梃子の効果など重要な考え方を再確認できた。薄い本なのですぐに読めるし、重要な考えが乗っているので初学者にもおすすめの本。",
+            "book": {
+                "author": {"name": "Mike Gancarz"},
+                "page": 148,
+                "title": "UNIXという考え方\u2015その設計思想と哲学",
+                "url": "https://www.amazon.co.jp/dp/product/4274064069/ref=as_li_tf_tl?camp=247&creative=1211&creativeASIN=4274064069&ie=UTF8&linkCode=as2&tag=bookmeter_book_image_image_pc_logoff-22"
+            }
+        },
+        {
+            "date": "2021-05-07",
+            "review": "再読。今回は必要に駆られて読んだが、前回とは見え方がかなり違った。これをやれば良いという銀の弾丸はなく、プロダクトのコアバリューとそれに合った最重要指標を見定め、分析・アイデア出し・優先順序付・実験を高速で回していくことになる。分析用のダッシュボードはシンプルでわかりやすいものにしておけという箇所は、最近読んだLayerXのテックブログにも同じことが書いてあって、伸びる会社はそういったことをしっかりやっているんだと実感した。",
+            "book": {
+                "author": {"name": "ショーン・エリス,モーガン・ブラウン"},
+                "page": 372,
+                "title": "Hacking Growth グロースハック完全読本",
+                "url": "https://www.amazon.co.jp/dp/product/4822255824/ref=as_li_tf_tl?camp=247&creative=1211&creativeASIN=4822255824&ie=UTF8&linkCode=as2&tag=bookmeter_book_image_image_pc_logoff-22"
+            }
+        },
+        {
+            "date": "2021-05-03",
+            "review": "会社の先輩がお勧めしていたので読んでみた。読みながらめちゃくちゃワクワクしたし、自分もこんな会社で働いてみたいと強く思った。リーンやアジャイルといった手法を自分たちのものにしているし、顧客や従業員含めてしっかりと人間に向き合っている。内容も具体的でわかりやすい。",
+            "book": {
+                "author": {"name": "リチャード・シェリダン"},
+                "page": 288,
+                "title": "ジョイ・インク 役職も部署もない全員主役のマネジメント",
+                "url": "https://www.amazon.co.jp/dp/product/4798148784/ref=as_li_tf_tl?camp=247&creative=1211&creativeASIN=4798148784&ie=UTF8&linkCode=as2&tag=bookmeter_book_image_image_pc_logoff-22"
+            }
+        },
+        {
+            "date": "2021-04-28",
+            "review": "kindleにて。解説しているKotlinの言語仕様が、Javaや他の言語のどんな課題を解決しようとしたもので、どんなメリットがあるのかがしっかり解説してあって納得感と理解のしやすがあって良かった。また、どんな場面で使われるかの具体的なコードもあり分かりやすかった。Corutineなどの最新のトピック(出版後に実装された機能？)については本書では触れられていないので、自分で別途勉強しておきたい。",
+            "book": {
+                "author": {"name": "Dmitry Jemerov,Svetlana Isakova"},
+                "page": 464,
+                "title": "Kotlinイン・アクション",
+                "url": "https://www.amazon.co.jp/dp/product/4839961743/ref=as_li_tf_tl?camp=247&creative=1211&creativeASIN=4839961743&ie=UTF8&linkCode=as2&tag=bookmeter_book_image_image_pc_logoff-22"
+            }
+        },
+        {
+            "date": "2021-04-21",
+            "review": "Audibleにて。D2Cというものを初めて知った。その独自の世界観と顧客と向き合い魅了する様にワクワクした。一方で、そういった世界観を作るには独自の哲学みたいなのが必要で、日本の企業がD2Cを中途半端に始めるのには不安があるし、世界観に魅了される顧客としての日本人像は都市部の新しいものが好きな人々しか想像できず、日本での可能性にピンとこなかった。日本での事例にはどんなものがあるのか調べてみたい。",
+            "book": {
+                "author": {"name": "佐々木康裕"},
+                "page": 200,
+                "title": "D2C 「世界観」と「テクノロジー」で勝つブランド戦略 (NewsPicksパブリッシング)",
+                "url": "https://www.amazon.co.jp/dp/product/491006303X/ref=as_li_tf_tl?camp=247&creative=1211&creativeASIN=491006303X&ie=UTF8&linkCode=as2&tag=bookmeter_book_image_image_pc_logoff-22"
+            }
+        },
+        {
+            "date": "2021-04-19",
+            "review": "Audibleにて。かなり哲学的で論理的に死についての論を進める。自分も一時期生と死について考えたことがあったが、ここまで深く多角的に考えられてはいなかった。そんな意味でも死について考える上でたくさんの視点や考え方を与えてくれる本。一方で、たくさんの視点が紹介されているため、読む期間が開いたりして一度論の流れを見失うとまた思い出すのが大変だった。",
+            "book": {
+                "author": {"name": "シェリー・ケーガン"},
+                "page": 751,
+                "title": "「死」とは何か イェール大学で23年連続の人気講義 完全翻訳版",
+                "url": "https://www.amazon.co.jp/dp/product/4866511281/ref=as_li_tf_tl?camp=247&creative=1211&creativeASIN=4866511281&ie=UTF8&linkCode=as2&tag=bookmeter_book_image_image_pc_logoff-22"
+            }
+        },
+        {
+            "date": "2021-04-02",
+            "review": "業務でAndroidを触ることになったので読んでみた。Androidっぽい設計や、実務における負債とそれへの対応手順など、豊富なサンプルコードとともに書かれていて面白かった。自分のAndroidの知識はcodelabのチュートリアルをやった程度の初心者だが、読み通すことができた。いつか自分でもFluxでサンプルを作ってみたい。設計関連の本はしばらくしてから再読するようにしたい。",
+            "book": {
+                "author": {"name": "日高 正博, 小西 裕介, 藤原 聖, 吉岡 毅今, 井 智章"},
+                "page": 221,
+                "title": "Androidアプリ設計パターン入門",
+                "url": "https://peaks.cc/books/architecture_patterns"
+            }
+        },
+        {
+            "date": "2021-03-24",
+            "review": "kindleにて。プロセッサの基本から歴史、周辺技術まで解説していてプロセッサに馴染みがない自分が読んでも面白かった。あんな小さな基盤に長い歴史と人の努力と工夫がギュッと詰まっていることを思い知らされて圧巻だった。理解できなかった箇所もあったので後日調べ直したい。また、10年くらい前の本になるので最新のプロセッサの情報も調べてみたい。",
+            "book": {
+                "author": {"name": "Hisa Ando"},
+                "page": 400,
+                "title": "プロセッサを支える技術　　－－果てしなくスピードを追求する世界 (WEB+DB PRESS plus)",
+                "url": "https://www.amazon.co.jp/dp/product/4774145211/ref=as_li_tf_tl?camp=247&creative=1211&creativeASIN=4774145211&ie=UTF8&linkCode=as2&tag=bookmeter_book_image_image_pc_logoff-22"
+            }
+        },
+        {
+            "date": "2021-02-09",
+            "review": "社会人になってもうすぐ1年経つが、そろそろお金のことをちゃんと知っておこうと思い、今更ながら勉強した。投資初心者の前のど素人のための本ということで、簡単すぎる内容かと思ったが、知らないことが多く、投資やお金についての入門的な知識を得ることができた。さっそく証券口座をつくってみよう思う。",
+            "book": {
+                "author": {"name": "Edit room:H"},
+                "page": 322,
+                "title": "投資ド素人が投資初心者になるための 株・投資信託・つみたて NISA・iDeCo・ふるさと納税 超入門(Kindle)",
+                "url": "https://www.amazon.co.jp/dp/product/B083RCRK4S/ref=as_li_tf_tl?camp=247&creative=1211&creativeASIN=B083RCRK4S&ie=UTF8&linkCode=as2&tag=bookmeter_book_image_image_pc_logoff-22"
+            }
+        },
+        {
+            "date": "2021-01-27",
+            "review": "試験用に読んだ。正義論と法概念論の２部構成で、テーマが細かく区切られていて具体例も適度にあってわかりやすい。功利主義ひとつをとってもいろんな切り口があって面白い。",
+            "book": {
+                "author": {"name": "瀧川 裕英,宇佐美 誠,大屋 雄裕"},
+                "page": 416,
+                "title": "法哲学",
+                "url": "https://www.amazon.co.jp/dp/product/4641125678/ref=as_li_tf_tl?camp=247&creative=1211&creativeASIN=4641125678&ie=UTF8&linkCode=as2&tag=bookmeter_book_image_image_pc_logoff-22"
+            }
+        },
+        {
+            "date": "2020-12-31",
+            "review": "エンジニアになってもうすぐ1年経つので節目に読んでおいた。エンジニアとしての心構え的な内容かと思っていたが、それだけでなく技術や開発など包括的で実践的だった。達人プログラマーと自分の差をひしひしと感じた。来年は本書に書かれていることを少しでも実践し、また節目に読み直したい。",
+            "book": {
+                "author": {"name": "David Thomas,Andrew Hunt"},
+                "page": 422,
+                "title": "達人プログラマー(第2版): 熟達に向けたあなたの旅",
+                "url": "https://www.amazon.co.jp/dp/product/4274226298/ref=as_li_tf_tl?camp=247&creative=1211&creativeASIN=4274226298&ie=UTF8&linkCode=as2&tag=bookmeter_book_image_image_pc_logoff-22"
+            }
+        },
+        {
+            "date": "2020-12-25",
+            "review": "社内の輪読会にて。Webサイトの脆弱性やセキュリティ機能など、セキュリティに関する一通りを学ぶことができる。思いも寄らない手段による攻撃手法などもあり、こういったものは知っていないと対応できないなとセキュリティについて予め知っておくことの重要性を実感した。本書の特典として、PHPに少し詳しくなれます。",
+            "book": {
+                "author": {"name": "徳丸 浩"},
+                "page": 688,
+                "title": "体系的に学ぶ 安全なWebアプリケーションの作り方 第2版 脆弱性が生まれる原理と対策の実践",
+                "url": "https://www.amazon.co.jp/dp/product/4797393165/ref=as_li_tf_tl?camp=247&creative=1211&creativeASIN=4797393165&ie=UTF8&linkCode=as2&tag=bookmeter_book_image_image_pc_logoff-22"
+            }
+        },
+        {
+            "date": "2020-12-23",
+            "review": "入門だけあって分かりやすかったが、概念が多かったので読み返しながら身につけていきたい。手続き法は実体法を実現するための法であり、民事訴訟法では紛争を解決するために適切に弁論設計をしていたり、訴訟経済にも考慮していたりと、面白そうというのが読み始めの印象だったが、結局手続き法なんだなと思わされた。次は学説や判例も読んでいきたい。",
+            "book": {
+                "author": {"name": "伊藤 真"},
+                "page": 184,
+                "title": "伊藤真の民事訴訟法入門 第5版: 講義再現版",
+                "url": "https://www.amazon.co.jp/dp/product/4535521646/ref=as_li_tf_tl?camp=247&creative=1211&creativeASIN=4535521646&ie=UTF8&linkCode=as2&tag=bookmeter_book_image_image_pc_logoff-22"
+            }
+        },
+        {
+            "date": "2020-12-22",
+            "review": "Audibleにて。高等なテクニックなどではなく、基本的で誰でも実践できるようなことばかり書かれていて、それが有効であることを裏付ける実例も豊富で良い本だった。ただ、それを心から実践し日常にとけ込ませるのは時間がかかりそうだと思った。読み返しながら少しずつ実践していきたい。",
+            "book": {
+                "author": {"name": "D・カーネギー"},
+                "page": 320,
+                "title": "人を動かす 文庫版",
+                "url": "https://www.amazon.co.jp/dp/product/442210098X/ref=as_li_tf_tl?camp=247&creative=1211&creativeASIN=442210098X&ie=UTF8&linkCode=as2&tag=bookmeter_book_image_image_pc_logoff-22"
+            }
+        },
+        {
+            "date": "2020-12-14",
+            "review": "ブール関数のデバイスである論理ゲートから始まり、ALU、順序回路、機械語、アセンブラ、VM、コンパイラ、OSへと、小さな部品を一つ一つ組み立てて普段使うソフトウェアへと組み上がっていく様は興奮に胸が高まり、とても面白かった。ただ、かなり骨太だったので読むのに時間と脳味噌を使った。コンパイラの箇所はもっと掘り下げてみたいし、OSについてはOS自作入門のような書籍があったように思うのでいつか自分でも自作に挑戦してみたい。",
+            "book": {
+                "author": {"name": "Noam Nisan,Shimon Schocken"},
+                "page": 416,
+                "title": "コンピュータシステムの理論と実装 \u2015モダンなコンピュータの作り方",
+                "url": "https://www.amazon.co.jp/dp/product/4873117127/ref=as_li_tf_tl?camp=247&creative=1211&creativeASIN=4873117127&ie=UTF8&linkCode=as2&tag=bookmeter_book_image_image_pc_logoff-22"
+            }
+        },
+        {
+            "date": "2020-12-12",
+            "review": "入門だけあって分かりやすかった。学説や判例などは別途勉強しなければ。刑法を実現する手続法である刑事訴訟法は、その性質ゆえに人権保障を重視しながら、訴訟経済との兼ね合いも考えていて、論理も通っていて面白かった。自由心証主義などは、行動経済学や心理学にいう人間の不合理性が入ってしまう余地がありそうで危うさを感じたが、人間の心情的には今はこれがベターなんだろう。",
+            "book": {
+                "author": {"name": "伊藤 真"},
+                "page": 196,
+                "title": "伊藤真の刑事訴訟法入門 第5版 講義再現版",
+                "url": "https://www.amazon.co.jp/dp/product/4535521638/ref=as_li_tf_tl?camp=247&creative=1211&creativeASIN=4535521638&ie=UTF8&linkCode=as2&tag=bookmeter_book_image_image_pc_logoff-22"
+            }
+        },
+        {
+            "date": "2020-12-09",
+            "review": "Audibleにて。関西弁のロシア人がサラリーマンに指令を通してシステマのメソッドを教える内容で、対話形式で進む。呼吸や姿勢を意識し、平常心を維持することで自身の能力と人生を最大限に高める、といった内容。システマは格闘技のように思っていたが、考えが改めさせられた。最近はストレスで呼吸が浅いことが多かったので、この本はちょうどよかった。意識して平常心を保っていきたい。",
+            "book": {
+                "author": {"name": "ゲオルギー・システマスキー"},
+                "page": 312,
+                "title": "人生は楽しいかい?",
+                "url": "https://www.amazon.co.jp/dp/product/4906790224/ref=as_li_tf_tl?camp=247&creative=1211&creativeASIN=4906790224&ie=UTF8&linkCode=as2&tag=bookmeter_book_image_image_pc_logoff-22"
+            }
+        },
+        {
+            "date": "2020-11-28",
+            "review": "日常生活に大きな関わりがありながら、市民との距離がある民法を身近に面白く感じてもらうと言う主題の本。内容は実生活に近い民法を扱ったり、歴史を見ながら法の意義を探ったりと、読者に寄り添う姿勢が見えて良かった。たまに垣間見られる法学部生への愚痴にグサっとやられながら読んだ。社会人になってから法律を勉強すると、実例にも共感できるし他人事ではなく、学生の頃とは違った視点や視野で読めて面白い。",
+            "book": {
+                "author": {"name": "池田 真朗"},
+                "page": 256,
+                "title": "民法はおもしろい (講談社現代新書)",
+                "url": "https://www.amazon.co.jp/dp/product/4062881861/ref=as_li_tf_tl?camp=247&creative=1211&creativeASIN=4062881861&ie=UTF8&linkCode=as2&tag=bookmeter_book_image_image_pc_logoff-22"
+            }
+        },
+        {
+            "date": "2020-11-27",
+            "review": "Audibleにて。小さな町工場から宇宙を目指す壮大でロマンチックな話かと思って読み始めると、筆者が筆者なので半沢直樹のような、ビジネスにおける人間の汚い部分やピュアで眩しく胸が熱くなる部分を描いためちゃくちゃ面白い作品だった。話の展開は結構ベタな感じはあったものの、それでもハラハラドキドキして胸を熱くしてしまった。池井戸さんの作品はドラマの半沢直樹シリーズの１期を見ただけだったので、他の作品にも触れてみたい。",
+            "book": {
+                "author": {"name": "池井戸 潤"},
+                "page": 496,
+                "title": "下町ロケット (小学館文庫)",
+                "url": "https://www.amazon.co.jp/dp/product/4094088962/ref=as_li_tf_tl?camp=247&creative=1211&creativeASIN=4094088962&ie=UTF8&linkCode=as2&tag=bookmeter_book_image_image_pc_logoff-22"
+            }
+        },
+        {
+            "date": "2020-11-23",
+            "review": "上長がお勧めしていたので読んでみた。与えられた依頼や状況に対して鵜呑みにせず、論点を見誤らないようにするというのは当たり前だよなと思う一方で、日常の至る所に論点は存在しうるのでもっと論点に対して意識的になろうとも思った。視野・視点・視座の話は面白かった。本当の問題は何かということに意識的になり、２つ上のポジションから多くの視点や視野を持ってものを考えるようにしたい。",
+            "book": {
+                "author": {"name": "内田 和成"},
+                "page": 235,
+                "title": "論点思考",
+                "url": "https://www.amazon.co.jp/dp/product/4492556559/ref=as_li_tf_tl?camp=247&creative=1211&creativeASIN=4492556559&ie=UTF8&linkCode=as2&tag=bookmeter_book_image_image_pc_logoff-22"
+            }
+        },
+        {
+            "date": "2020-11-23",
+            "review": "面白かった！OSの基本機能をソースコードレベルで知ることができる。OSというととても複雑で難しいというイメージがあったが、OSもソフトウェアの１つであることが実感できた。読み込みを高速化する工夫もありながら、愚直に処理している箇所やバグもあって親近感が湧いた。１つの知識が別の箇所でも必要となるので、一通り読んだだけでは理解できなかった箇所がたくさんあるので、もう一度読み直したい。コンピュータシステムの技術に興味を持ったので、別の本も呼んだりしながら知識を広げ掘り下げていきたい。",
+            "book": {
+                "author": {"name": "青柳 隆宏"},
+                "page": 448,
+                "title": "はじめてのOSコードリーディング ~UNIX V6で学ぶカーネルのしくみ (Software Design plus)",
+                "url": "https://www.amazon.co.jp/dp/product/4774154644/ref=as_li_tf_tl?camp=247&creative=1211&creativeASIN=4774154644&ie=UTF8&linkCode=as2&tag=bookmeter_book_image_image_pc_logoff-22"
+            }
+        },
+        {
+            "date": "2020-11-20",
+            "review": "再読。労働法の意義や、国や文化の違いによる労働観の違いといった労働法の背景、具体例としての判例など、タイトルの通り入門的でとても分かりやすかった。会社法や労働法は、社会人になって改めて読むとかなり見方が違って見えて面白かった。一方で、労働者の権利を守るためにこんな法制度があるのに、使用者も労働者自身も把握できていないし、遵守できていないようにも感じて世知辛さを感じた。",
+            "book": {
+                "author": {"name": "水町 勇一郎"},
+                "page": 256,
+                "title": "労働法入門 (岩波新書)",
+                "url": "https://www.amazon.co.jp/dp/product/4004313295/ref=as_li_tf_tl?camp=247&creative=1211&creativeASIN=4004313295&ie=UTF8&linkCode=as2&tag=bookmeter_book_image_image_pc_logoff-22"
+            }
+        },
+        {
+            "date": "2020-11-18",
+            "review": "基本を押さえておこうと思い読んでみた。かなり基本的なことから書かれていたが、法律初学者であればこの本は良いとっかかりになりそう。",
+            "book": {
+                "author": {"name": "吉田 利宏"},
+                "page": 328,
+                "title": "元法制局キャリアが教える 法律を読む技術・学ぶ技術[改訂第3版]",
+                "url": "https://www.amazon.co.jp/dp/product/4478065098/ref=as_li_tf_tl?camp=247&creative=1211&creativeASIN=4478065098&ie=UTF8&linkCode=as2&tag=bookmeter_book_image_image_pc_logoff-22"
+            }
+        },
+        {
+            "date": "2020-11-16",
+            "review": "会社のお昼休みにちょこちょこ読んで再読。今年の今までの設計の勉強やデザインパターンの勉強をした今、改めて読んでみるとまた新しい発見や、最初読み落としていた箇所がわかるようになって新鮮だった。設計強くなりたい。",
+            "book": {
+                "author": {"name": "関 義隆,松館 大輝,史翔新 田中賢治 鈴木大貴 杉上洋平"},
+                "page": 320,
+                "title": "iOSアプリ設計パターン入門",
+                "url": "https://peaks.cc/books/iOS_architecture"
+            }
+        },
+        {
+            "date": "2020-11-15",
+            "review": "犯罪とは何か、どういう時に成立し、どういう時に成立しないのかが、判例とともに分かりやすく書かれている。刑法は人の自由を制限するだけあって、その論理性はしっかりとしたもので、読み解くのに脳味噌を使わされる。次は概説書と判例集を読み込んでいきたい。",
+            "book": {
+                "author": {"name": "山口 厚"},
+                "page": 228,
+                "title": "刑法入門 (岩波新書)",
+                "url": "https://www.amazon.co.jp/dp/product/4004311365/ref=as_li_tf_tl?camp=247&creative=1211&creativeASIN=4004311365&ie=UTF8&linkCode=as2&tag=bookmeter_book_image_image_pc_logoff-22"
+            }
         }
     ],
-    "totalPages": 242491
+    "totalPages": 815
 }
