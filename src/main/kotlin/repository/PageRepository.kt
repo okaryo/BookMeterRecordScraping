@@ -3,8 +3,9 @@ package repository
 import org.jsoup.Jsoup
 import org.jsoup.nodes.Document
 import kotlin.system.exitProcess
+import webdriver.WebDriver
 
-class PageRepository(private val userId: Int) {
+class PageRepository(private val userId: Int, private val webDriver: WebDriver) {
     companion object {
         const val baseUrl = "https://bookmeter.com"
         const val maxRetry = 20
@@ -22,7 +23,7 @@ class PageRepository(private val userId: Int) {
 
     fun getReviewPageDocument(reviewId: Int): Document {
         val reviewPageUrl = "$baseUrl/reviews/$reviewId"
-        return getDocumentBy(reviewPageUrl)
+        return getDocumentByWebDriver(reviewPageUrl)
     }
 
     private fun getDocumentBy(url: String): Document {
@@ -37,6 +38,29 @@ class PageRepository(private val userId: Int) {
                 Jsoup.connect(url).timeout(10000).get().let {
                     document = it
                 }
+                retryCount = 0
+            } catch (e: Exception) {
+                retryCount++
+                if (retryCount == maxRetry) {
+                    print("\r")
+                    println("Failed $maxRetry times to fetch the Review page!")
+                    exitProcess(1)
+                }
+            }
+        }
+        return document!!
+    }
+
+    private fun getDocumentByWebDriver(url: String): Document {
+        var retryCount = 0
+        var document: Document? = null
+
+        while (retryCount < maxRetry) {
+            if (document != null) break
+
+            try {
+                Thread.sleep(awaitingTimeBetweenRequest(retryCount))
+                document = Jsoup.parse(webDriver.getPageSource(url))
                 retryCount = 0
             } catch (e: Exception) {
                 retryCount++
