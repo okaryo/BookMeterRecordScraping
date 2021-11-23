@@ -19,28 +19,62 @@ class ReadingRecordListBuilder(private val repository: PageRepository) {
         var readBooksPageParser = ReadBooksPageParser(document)
         val totalReadBooksCount = readBooksPageParser.getTotalReadBooksCount()
         val progressIndicatorLogger = ProgressIndicatorLogger(totalReadBooksCount)
-        val records = mutableListOf<ReadingRecord>()
+        var records = ReadingRecordList(0, 0, listOf())
         progressIndicatorLogger.log(0)
 
         while (readBooksPageParser.existsBooks()) {
             GlobalScope.launch(Dispatchers.IO) {
                 launch  {
-                    val readingRecords = buildReadingRecordsInPage(readBooksPageParser)
-                    records.addAll(readingRecords)
+                    val readingRecords = buildReadingRecords(readBooksPageParser)
+                    records = records.add(readingRecords)
                 }
             }.join()
-            progressIndicatorLogger.log(records.size)
+            progressIndicatorLogger.log(records.size())
             paginationPage++
             document = repository.getReadBooksPageDocument(paginationPage)
             readBooksPageParser = ReadBooksPageParser(document)
-            break
         }
         progressIndicatorLogger.clean()
-        val totalPages = records.sumOf { record -> record.book.page }
-        return ReadingRecordList(recordsCount = records.size, totalPages = totalPages, records = records)
+        return records
     }
 
-    private fun buildReadingRecordsInPage(readBooksPageParser: ReadBooksPageParser): List<ReadingRecord> {
+    @DelicateCoroutinesApi
+    suspend fun execute(existingRecords: ReadingRecordList): ReadingRecordList {
+        var paginationPage = 1
+        var document = repository.getReadBooksPageDocument(paginationPage)
+        var readBooksPageParser = ReadBooksPageParser(document)
+        val totalReadBooksCount = readBooksPageParser.getTotalReadBooksCount()
+        val progressIndicatorLogger = ProgressIndicatorLogger(totalReadBooksCount)
+        var notYetSavedRecords = ReadingRecordList(0, 0, listOf())
+        progressIndicatorLogger.log(0)
+
+        var hasSameRecord = false
+        while (readBooksPageParser.existsBooks()) {
+            GlobalScope.launch(Dispatchers.IO) {
+                launch  {
+                    val newRecords = buildReadingRecords(readBooksPageParser).filter {
+                        if (existingRecords.hasSameRecord(it)) {
+                            hasSameRecord = true
+                            false
+                        } else {
+                            true
+                        }
+                    }
+                    notYetSavedRecords = notYetSavedRecords.add(newRecords)
+                }
+            }.join()
+            progressIndicatorLogger.log(notYetSavedRecords.size())
+            if (hasSameRecord) break
+
+            paginationPage++
+            document = repository.getReadBooksPageDocument(paginationPage)
+            readBooksPageParser = ReadBooksPageParser(document)
+        }
+        progressIndicatorLogger.clean()
+        return existingRecords.prepend(notYetSavedRecords)
+    }
+
+    private fun buildReadingRecords(readBooksPageParser: ReadBooksPageParser): List<ReadingRecord> {
         return readBooksPageParser.getBookGroupElements().map { element ->
             val date = readBooksPageParser.getDate(element)
             val authorName = readBooksPageParser.getAuthorName(element)
