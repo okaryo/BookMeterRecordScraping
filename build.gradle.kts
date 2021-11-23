@@ -19,6 +19,8 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.2.2")
     implementation("org.jetbrains.kotlinx:kotlinx-datetime:0.2.1")
     implementation("org.json:json:20171018")
+    implementation("org.seleniumhq.selenium:selenium-java:3.141.59")
+    implementation("org.seleniumhq.selenium:selenium-support:3.141.59")
     testImplementation(kotlin("test"))
 }
 
