@@ -24,7 +24,7 @@ jobs:
       - name: Build with Gradle
         run: ./gradlew build
       - name: Run with Gradle and Generate JSON
-        run: ./gradlew run --args="739784 main.json"
+        run: ./gradlew run --args="739784 main.json only-diff"
       - name: Setup git
         run: |
           git config --local user.email "okaryotr@gmail.com"
