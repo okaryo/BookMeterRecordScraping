@@ -1,5 +1,8 @@
 name: Generate Book Record JSON
 on:
+  push:
+    branches:
+      - master
   schedule:
     # Run jobs every wednesday at 3:00
     - cron: '0 18 * * 2'
