@@ -16,48 +16,49 @@ class ReadingRecordListBuilder(private val repository: PageRepository) {
     suspend fun execute(): ReadingRecordList {
         var paginationPage = 1
         var document = repository.getReadBooksPageDocument(paginationPage)
-        var parseReadBooksPageService = ReadBooksPageParser(document)
-        val totalReadBooksCount = parseReadBooksPageService.getTotalReadBooksCount()
+        var readBooksPageParser = ReadBooksPageParser(document)
+        val totalReadBooksCount = readBooksPageParser.getTotalReadBooksCount()
         val progressIndicatorLogger = ProgressIndicatorLogger(totalReadBooksCount)
         val records = mutableListOf<ReadingRecord>()
         progressIndicatorLogger.log(0)
 
-        while (parseReadBooksPageService.existsBooks()) {
+        while (readBooksPageParser.existsBooks()) {
             GlobalScope.launch(Dispatchers.IO) {
                 launch  {
-                    val readingRecords = buildReadingRecordsInPage(parseReadBooksPageService)
+                    val readingRecords = buildReadingRecordsInPage(readBooksPageParser)
                     records.addAll(readingRecords)
                 }
             }.join()
             progressIndicatorLogger.log(records.size)
             paginationPage++
             document = repository.getReadBooksPageDocument(paginationPage)
-            parseReadBooksPageService = ReadBooksPageParser(document)
+            readBooksPageParser = ReadBooksPageParser(document)
+            break
         }
         progressIndicatorLogger.clean()
         val totalPages = records.sumOf { record -> record.book.page }
         return ReadingRecordList(recordsCount = records.size, totalPages = totalPages, records = records)
     }
 
-    private fun buildReadingRecordsInPage(parseReadBooksPageService: ReadBooksPageParser): List<ReadingRecord> {
-        return parseReadBooksPageService.getBookGroupElements().map { element ->
-            val date = parseReadBooksPageService.getDate(element)
-            val authorName = parseReadBooksPageService.getAuthorName(element)
-            val bookPage= parseReadBooksPageService.getBookPage(element)
-            val bookId = parseReadBooksPageService.getBookId(element)
-            val parseBookDetailPageService = runBlocking {
+    private fun buildReadingRecordsInPage(readBooksPageParser: ReadBooksPageParser): List<ReadingRecord> {
+        return readBooksPageParser.getBookGroupElements().map { element ->
+            val date = readBooksPageParser.getDate(element)
+            val authorName = readBooksPageParser.getAuthorName(element)
+            val bookPage= readBooksPageParser.getBookPage(element)
+            val bookId = readBooksPageParser.getBookId(element)
+            val bookDetailPageParser = runBlocking {
                 val document = repository.getBookDetailPageDocument(bookId)
                 BookDetailPageParser(document)
             }
-            val title = parseBookDetailPageService.getBookTitle()
-            val bookUrl = parseBookDetailPageService.getBookUrl()
-            val review = if (parseReadBooksPageService.hasReview(element)) {
-                val reviewId = parseReadBooksPageService.getReviewId(element)
-                val parseReviewPageService = runBlocking {
+            val title = bookDetailPageParser.getBookTitle()
+            val bookUrl = bookDetailPageParser.getBookUrl()
+            val review = if (readBooksPageParser.hasReview(element)) {
+                val reviewId = readBooksPageParser.getReviewId(element)
+                val reviewPageParser = runBlocking {
                     val document = repository.getReviewPageDocument(reviewId)
                     ReviewPageParser(document)
                 }
-                parseReviewPageService.getReview()
+                reviewPageParser.getReview()
             } else {
                 ""
             }

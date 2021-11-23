@@ -4,12 +4,14 @@ import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
 import org.json.JSONObject
 import repository.PageRepository
+import webdriver.WebDriver
 import java.io.File
 
 @DelicateCoroutinesApi
 suspend fun main(args: Array<String>) {
     val userId = args.first().toInt()
-    val fetchPagesService = PageRepository(userId)
+    val webDriver = WebDriver()
+    val fetchPagesService = PageRepository(userId, webDriver)
     val readingRecordList = ReadingRecordListBuilder(fetchPagesService).execute()
     val recordListJson = Json.encodeToString(readingRecordList)
     val formattedJson = JSONObject(recordListJson).toString(4)
@@ -21,4 +23,6 @@ suspend fun main(args: Array<String>) {
     } else {
         println(formattedJson)
     }
+
+    webDriver.close()
 }
