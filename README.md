@@ -30,6 +30,24 @@ An application that outputs JSON format reading records from [BookMeter](https:/
 
 `./gradlew run --args="[user id] [output file name]"`
 
-`ex) ./gradlew run --args="739784 main.json"`
+`ex) ./gradlew run --args="739784 main.json only-diff"`
 
 3. Then, generate reading records in `./generated/main.json`
+
+## About Args
+There are three types of arguments.
+
+1. If only the user ID is passed, JSON of the reading record will be output to the console, and no JSON file will be generated. This is a **required** argument.
+```shell
+./gradlew run --args="739784"
+```
+
+2. If you pass a file name as the second argument, a JSON file of the reading record will be generated under the `generated` directory with the given file name.
+```shell
+./gradlew run --args="739784 main.json"
+```
+
+3. Moreover, if you pass the string `only-diff` as the third argument, it will only scrape the record of the difference between the existing JSON file and the reading record on the current BookMeter.
+```shell
+./gradlew run --args="739784 main.json only-diff"
+```
