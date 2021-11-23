@@ -22,14 +22,14 @@ data class ReadingRecordList(
         val newTotalPages = this.totalPages + records.sumOf { record -> record.book.page }
         val newRecordsCount = this.recordsCount + records.size
         val newRecords = this.records + records
-        return ReadingRecordList(newTotalPages, newRecordsCount, newRecords)
+        return ReadingRecordList(recordsCount = newRecordsCount, totalPages = newTotalPages, records = newRecords)
     }
 
     fun prepend(records: ReadingRecordList): ReadingRecordList {
         val newTotalPages = this.totalPages + records.totalPages
         val newRecordsCount = this.recordsCount + records.size()
-        val newRecords = this.records + records.records
-        return ReadingRecordList(newTotalPages, newRecordsCount, newRecords)
+        val newRecords = records.records + this.records
+        return ReadingRecordList(recordsCount = newRecordsCount, totalPages = newTotalPages, records = newRecords)
     }
 
     fun hasSameRecord(record: ReadingRecord): Boolean {
