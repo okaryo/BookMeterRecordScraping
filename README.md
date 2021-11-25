@@ -1,4 +1,4 @@
-# bookmeter-record-scraping
+# BookMeterRecordScraping
 
 An application that outputs JSON format reading records from [BookMeter](https://bookmeter.com/)
 

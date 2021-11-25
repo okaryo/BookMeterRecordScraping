@@ -1,3 +1,1 @@
-
-rootProject.name = "bookmeter-record-scraping"
-
+rootProject.name = "BookMeterRecordScraping"
