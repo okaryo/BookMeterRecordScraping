@@ -18,7 +18,7 @@ class ReadingRecordListBuilder(private val repository: PageRepository) {
         var document = repository.getReadBooksPageDocument(paginationPage)
         var readBooksPageParser = ReadBooksPageParser(document)
         val totalReadBooksCount = readBooksPageParser.getTotalReadBooksCount()
-        val progressIndicatorLogger = ProgressIndicatorLogger(totalReadBooksCount)
+        val progressIndicatorLogger = ProgressIndicatorLogger(System.currentTimeMillis(), totalReadBooksCount)
         var records = ReadingRecordList(0, 0, listOf())
         progressIndicatorLogger.log(0)
 
@@ -34,7 +34,7 @@ class ReadingRecordListBuilder(private val repository: PageRepository) {
             document = repository.getReadBooksPageDocument(paginationPage)
             readBooksPageParser = ReadBooksPageParser(document)
         }
-        progressIndicatorLogger.clean()
+        progressIndicatorLogger.finish(records.size())
         return records
     }
 
@@ -44,7 +44,7 @@ class ReadingRecordListBuilder(private val repository: PageRepository) {
         var document = repository.getReadBooksPageDocument(paginationPage)
         var readBooksPageParser = ReadBooksPageParser(document)
         val totalReadBooksCount = readBooksPageParser.getTotalReadBooksCount()
-        val progressIndicatorLogger = ProgressIndicatorLogger(totalReadBooksCount)
+        val progressIndicatorLogger = ProgressIndicatorLogger(System.currentTimeMillis(), totalReadBooksCount)
         var notYetSavedRecords = ReadingRecordList(0, 0, listOf())
         progressIndicatorLogger.log(0)
 
@@ -70,7 +70,7 @@ class ReadingRecordListBuilder(private val repository: PageRepository) {
             document = repository.getReadBooksPageDocument(paginationPage)
             readBooksPageParser = ReadBooksPageParser(document)
         }
-        progressIndicatorLogger.clean()
+        progressIndicatorLogger.finish(notYetSavedRecords.size())
         return existingRecords.prepend(notYetSavedRecords)
     }
 
