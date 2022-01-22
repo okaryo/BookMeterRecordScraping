@@ -1,3 +1,5 @@
+[![Generate Book Record JSON](https://github.com/okaryo/BookMeterRecordScraping/actions/workflows/run.yml/badge.svg)](https://github.com/okaryo/BookMeterRecordScraping/actions/workflows/run.yml)
+
 # BookMeterRecordScraping
 
 An application that outputs JSON format reading records from [BookMeter](https://bookmeter.com/)
