@@ -11,8 +11,8 @@ jobs:
       - uses: actions/checkout@v2
       - name: Setup chromedriver
         run: |
-          MAIN_CHROME_VERSION=$(google-chrome --version | sed -r 's/^[^0-9]*([0-9]*).*$/\1/g')
-          LATEST_VERSION=$(curl -s https://chromedriver.storage.googleapis.com/LATEST_RELEASE_$MAIN_CHROME_VERSION)
+          MAJOR_CHROME_VERSION=$(google-chrome --version | sed -r 's/^[^0-9]*([0-9]*).*$/\1/g')
+          LATEST_VERSION=$(curl -s https://chromedriver.storage.googleapis.com/LATEST_RELEASE_$MAJOR_CHROME_VERSION)
           curl https://chromedriver.storage.googleapis.com/$LATEST_VERSION/chromedriver_linux64.zip --output ./chromedriver_linux64.zip
           unzip chromedriver_linux64.zip
       - name: Setup JDK 11
