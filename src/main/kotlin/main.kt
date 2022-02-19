@@ -20,7 +20,7 @@ suspend fun main(args: Array<String>) {
     val readingRecordList = if (args.size >= 3) {
         if (args[2] != "only-diff") throw InvalidParameterException("Invalid Arguments!")
 
-        val jsonString = File("./generated/main.json").readText()
+        val jsonString = File("./__generated__/main.json").readText()
         if (jsonString.isBlank()) throw InvalidObjectException("Json File is Empty!")
 
         val existingReadingRecords = ReadingRecordList.fromString(jsonString)
@@ -33,7 +33,7 @@ suspend fun main(args: Array<String>) {
 
     if (args.size >= 2) {
         val fileName = args[1]
-        val file = File("./generated/$fileName")
+        val file = File("./__generated__/$fileName")
         file.writeText(formattedJson)
     } else {
         println(formattedJson)

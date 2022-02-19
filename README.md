@@ -34,7 +34,7 @@ An application that outputs JSON format reading records from [BookMeter](https:/
 
 `ex) ./gradlew run --args="739784 main.json only-diff"`
 
-3. Then, generate reading records in `./generated/main.json`
+3. Then, generate reading records in `./__generated__/main.json`
 
 ## About Args
 There are three types of arguments.
@@ -44,7 +44,7 @@ There are three types of arguments.
 ./gradlew run --args="739784"
 ```
 
-2. If you pass a file name as the second argument, a JSON file of the reading record will be generated under the `generated` directory with the given file name.
+2. If you pass a file name as the second argument, a JSON file of the reading record will be generated under the `__generated__` directory with the given file name.
 ```shell
 ./gradlew run --args="739784 main.json"
 ```
