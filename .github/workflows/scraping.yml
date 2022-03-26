@@ -1,4 +1,5 @@
-name: Generate Book Record JSON
+name: generate book record
+
 on:
   schedule:
     # Run jobs every wednesday at 3:00
