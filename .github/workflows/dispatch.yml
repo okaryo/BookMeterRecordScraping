@@ -8,14 +8,15 @@ on:
       - '__generated__/main.json'
 
 jobs:
-  strategy:
-    matrix:
-      repo: ['okaryo/book.okaryo.io']
-  runs-on: ubuntu-latest
-  steps:
-    - name: dispatch record updated
-      uses: peter-evans/repository-dispatch@v2
-      with:
-        token: ${{ secrets.REPO_ACCESS_TOKEN }}
-        repository: ${{ matrix.repo }}
-        event-type: record-updated
+  dispatch:
+    strategy:
+      matrix:
+        repo: ['okaryo/book.okaryo.io']
+    runs-on: ubuntu-latest
+    steps:
+      - name: dispatch record updated
+        uses: peter-evans/repository-dispatch@v2
+        with:
+          token: ${{ secrets.REPO_ACCESS_TOKEN }}
+          repository: ${{ matrix.repo }}
+          event-type: record-updated
