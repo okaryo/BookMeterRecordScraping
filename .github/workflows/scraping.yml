@@ -10,27 +10,27 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Setup chromedriver
+      - name: setup chromedriver
         run: |
           MAJOR_CHROME_VERSION=$(google-chrome --version | sed -r 's/^[^0-9]*([0-9]*).*$/\1/g')
           LATEST_VERSION=$(curl -s https://chromedriver.storage.googleapis.com/LATEST_RELEASE_$MAJOR_CHROME_VERSION)
           curl https://chromedriver.storage.googleapis.com/$LATEST_VERSION/chromedriver_linux64.zip --output ./chromedriver_linux64.zip
           unzip chromedriver_linux64.zip
-      - name: Setup JDK 11
+      - name: setup JDK 11
         uses: actions/setup-java@v2
         with:
           java-version: '11'
           distribution: 'adopt'
-      - name: Build with Gradle
+      - name: build with Gradle
         run: ./gradlew build
-      - name: Run with Gradle and Generate JSON
+      - name: run with Gradle and generate json
         run: ./gradlew run --args="739784 main.json only-diff"
-      - name: Setup git
+      - name: setup git
         run: |
           git config --local user.email "okaryotr@gmail.com"
           git config --local user.name "okaryo"
           git config --local pull.rebase false
-      - name: Git Commit Changes if any
+      - name: git commit and push if any changes
         run: |
           if ! git diff --exit-code --quiet
           then
