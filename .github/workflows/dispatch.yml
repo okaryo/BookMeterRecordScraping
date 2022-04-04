@@ -1,11 +1,13 @@
 name: dispatch record updated
 
 on:
-  push:
+  workflow_run:
+    workflow_run:
+      - scraping
     branches:
       - main
-    paths:
-      - '__generated__/main.json'
+    types:
+      - completed
 
 jobs:
   dispatch:
