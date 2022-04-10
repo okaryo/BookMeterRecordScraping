@@ -96,8 +96,18 @@ class ReadingRecordListBuilder(private val repository: PageRepository) {
             } else {
                 ""
             }
+            val format = if (review.contains("Audibleにて。")) {
+                "Audible"
+            } else if (review.contains("Kindleにて。")) {
+                "Kindle"
+            } else if (review.contains("電子書籍にて。")) {
+                "Ebook"
+            } else {
+                "Paper"
+            }
+            val isRereading = review.contains("再読。")
             val book = Book(title, Author(authorName), bookPage, url = bookUrl)
-            ReadingRecord(book = book, date = date, review = review)
+            ReadingRecord(book = book, date = date, review = review, format = format, isRereading = isRereading)
         }
     }
 }
