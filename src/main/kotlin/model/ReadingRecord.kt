@@ -8,4 +8,6 @@ data class ReadingRecord(
     val book: Book,
     val review: String?,
     val date: LocalDate?,
+    val format: String,
+    val isRereading: Boolean,
 )
