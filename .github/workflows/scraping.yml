@@ -5,9 +5,6 @@ on:
     # Run jobs every day at 3:00
     - cron: '0 18 * * *'
 
-env:
-  existsDiff: false
-
 jobs:
   scraping:
     strategy:
@@ -40,20 +37,19 @@ jobs:
         run: |
           if ! git diff --exit-code --quiet
           then
-            echo "existsDiff=true" >> $GITHUB_ENV
+            echo existsDiff=true >> $GITHUB_ENV
+          else
+            echo existsDiff=false >> $GITHUB_ENV
           fi
       - name: git commit and push if any changes
-        if: ${{ env.existsDiff == true }}
+        if: env.existsDiff == 'true'
         run: |
-          if ! env.existsDiff == true
-          then
-            git add .
-            git commit -m "[add] Generated File By Scheduled Task"
-            git pull
-            git push origin main
-          fi
+          git add .
+          git commit -m "[add] Generated File By Scheduled Task"
+          git pull
+          git push origin main
       - name: dispatch record updated
-        if: ${{ env.existsDiff == true }}
+        if: env.existsDiff == 'true'
         uses: peter-evans/repository-dispatch@v2
         with:
           token: ${{ secrets.REPO_ACCESS_TOKEN }}
