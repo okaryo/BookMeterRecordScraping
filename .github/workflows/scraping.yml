@@ -1,12 +1,18 @@
-name: generate book record
+name: scraping book record
 
 on:
   schedule:
-    # Run jobs every wednesday at 3:00
-    - cron: '0 18 * * 2'
+    # Run jobs every day at 3:00
+    - cron: '0 18 * * *'
+
+env:
+  existsDiff: false
 
 jobs:
-  generate:
+  scraping:
+    strategy:
+      matrix:
+        repo: ['okaryo/book.okaryo.io']
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -30,12 +36,26 @@ jobs:
           git config --local user.email "okaryotr@gmail.com"
           git config --local user.name "okaryo"
           git config --local pull.rebase false
-      - name: git commit and push if any changes
+      - name: detect any diff
         run: |
           if ! git diff --exit-code --quiet
+          then
+            echo "existsDiff=true" >> $GITHUB_ENV
+          fi
+      - name: git commit and push if any changes
+        if: ${{ env.existsDiff == true }}
+        run: |
+          if ! env.existsDiff == true
           then
             git add .
             git commit -m "[add] Generated File By Scheduled Task"
             git pull
             git push origin main
           fi
+      - name: dispatch record updated
+        if: ${{ env.existsDiff == true }}
+        uses: peter-evans/repository-dispatch@v2
+        with:
+          token: ${{ secrets.REPO_ACCESS_TOKEN }}
+          repository: ${{ matrix.repo }}
+          event-type: record-updated
