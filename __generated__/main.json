@@ -1,6 +1,18 @@
 {
-    "recordsCount": 786,
+    "recordsCount": 787,
     "records": [
+        {
+            "date": "2022-04-16",
+            "review": "Kindleにて。TCPの基礎と歴史を解説した上で、後半は輻輳制御について。ひと口にTCPといってもLoss-basedやDelay-basedといった輻輳制御の型があり、それぞれにNewReno、BIC、CUBIC、Vegas、BBRなどの制御アルゴリズムがあることを知った。各アルゴリズムには技術的課題や社会的背景を基にした課題などがあり、それを解決するために新しいアルゴリズムが出ては別の課題が出たりとTCPに歴史ありで面白く読めた。TCP素人の自分にとっても分かりやすく面白い本だった。",
+            "book": {
+                "author": {"name": "安永 遼真,中山 悠,丸田 一輝"},
+                "page": 288,
+                "title": "TCP技術入門 \u2015\u2015進化を続ける基本プロトコル (WEB+DB PRESS plusシリーズ)",
+                "url": "https://www.amazon.co.jp/dp/product/429710623X/ref=as_li_tf_tl?camp=247&creative=1211&creativeASIN=429710623X&ie=UTF8&linkCode=as2&tag=bookmeter_book_image_image_pc_logoff-22"
+            },
+            "format": "Kindle",
+            "isRereading": false
+        },
         {
             "date": "2022-04-11",
             "review": "Audibleにて。面白かった！世界史の時系列に沿って書かれているものかと思ったが、金属や染料などといった化学のテーマごとに歴史と紐付けて解説する化学を主眼とする形式。高校化学で勉強した知識が世界史と一緒に語られて面白かったし、当時苦戦した有機無機の話では本書で紹介されているような背景をおさえられていると身につけやすかったのかなあと思うなどした。今の時勢もあるが、化学の歴史にはやはり国家の戦争がついてまわり、それは今も変わらないことに人間の進歩しているようで進歩してなさを感じた。",
@@ -9398,5 +9410,5 @@
             "isRereading": false
         }
     ],
-    "totalPages": 250723
+    "totalPages": 251011
 }
