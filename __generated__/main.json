@@ -1,6 +1,30 @@
 {
-    "recordsCount": 800,
+    "recordsCount": 802,
     "records": [
+        {
+            "date": "2022-06-18",
+            "review": "電子書籍にて。Vimの特集があったので買って読んだ。「基本大全」とあるように基本の部分がメインで、知っていることの方が多かったが、Vimプラグインは魅力的だった。自分はAndroidStudioにVim拡張を入れているだけの似非Vimmerなので、プラグインを入れて自分の好きなカスタマイズをすることにすごく惹かれた。IDEを捨ててピュアなVimに移行したいと思いつつやれていなかったので今回の機会にやってみようか。",
+            "book": {
+                "author": {"name": ""},
+                "page": 184,
+                "title": "ソフトウェアデザイン 2022年7月号",
+                "url": "https://www.amazon.co.jp/dp/product/B0B287M553/ref=as_li_tf_tl?camp=247&creative=1211&creativeASIN=B0B287M553&ie=UTF8&linkCode=as2&tag=bookmeter_book_image_image_pc_logoff-22"
+            },
+            "format": "Ebook",
+            "isRereading": false
+        },
+        {
+            "date": "2022-06-18",
+            "review": "今日試験を受けて無事合格！試験内容は本書の内容よりも難しくて泣きそうだった。重要なのは、本書に書かれている基本知識をベースとして、AWSを触った経験や、ソリューションアーキテクトとして必要な可用性やスケーラビリティ、パフォーマンス、セキュリティ、コストや運用の効率性などの視点を使って問題を考えることができるかどうかな気がする。主要なAWSのサービスの特徴を押さえておくには良い本。自信を持って試験に臨むには他にも模擬試験などを受けておくことをおすすめ。",
+            "book": {
+                "author": {"name": "NRIネットコム株式会社,佐々木 拓郎,林 晋一郎,金澤 圭"},
+                "page": 344,
+                "title": "AWS認定資格試験テキスト AWS認定ソリューションアーキテクト - アソシエイト 改訂第2版",
+                "url": "https://www.amazon.co.jp/dp/product/4815607389/ref=as_li_tf_tl?camp=247&creative=1211&creativeASIN=4815607389&ie=UTF8&linkCode=as2&tag=bookmeter_book_image_image_pc_logoff-22"
+            },
+            "format": "Paper",
+            "isRereading": false
+        },
         {
             "date": "2022-06-12",
             "review": "Audibleにて。最近ダイエットをしているのもあって読んでみた。最近よく聞く糖質制限ダイエットはよくある流行のダイエット法の一つかと思っていたが、近年ではカロリー制限ではなく糖質制限の方が重要視されているらしい。本の内容は糖質制限がメインで、さまざまな糖質食品について摂取しないようにと言っていた。少し論調が過剰なようにも聞こえるのもあるが、気にしすぎても食事がしんどくなりそうなので自分はそこまで過度に制限はせずほどほどにしておこうと思った。",
@@ -9602,5 +9626,5 @@
             "isRereading": false
         }
     ],
-    "totalPages": 254593
+    "totalPages": 255121
 }
