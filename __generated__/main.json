@@ -89,7 +89,7 @@
             "date": "2022-06-18",
             "review": "電子書籍にて。Vimの特集があったので買って読んだ。「基本大全」とあるように基本の部分がメインで、知っていることの方が多かったが、Vimプラグインは魅力的だった。自分はAndroidStudioにVim拡張を入れているだけの似非Vimmerなので、プラグインを入れて自分の好きなカスタマイズをすることにすごく惹かれた。IDEを捨ててピュアなVimに移行したいと思いつつやれていなかったので今回の機会にやってみようか。",
             "book": {
-                "author": {"name": ""},
+                "author": {"name": "mattn,ゴリラ,谷口 雅弥,最上 伸一,近藤 正裕,松原 涼香,寺田 学,Peacock(高井 陽一),生駒 眞知子,とみたまさひろ,齊藤 秀喜,平林 純,結城 浩,小島 優介,Tellusオウンドメディア「宙畑」編集部,田上 健太,松本 直人,清水 洋治,宮下 竜太,皆川 諒,中島 雅弘,小澤 昌樹,Katsutoshi Nakatomi,大隈 峻太郎,くつなりょうすけ,滝澤 照太,森若 和雄,弁護士 菱田 昌義,石井 哲治,杉山 貴章"},
                 "page": 184,
                 "title": "ソフトウェアデザイン 2022年7月号",
                 "url": "https://www.amazon.co.jp/dp/product/B0B287M553/ref=as_li_tf_tl?camp=247&creative=1211&creativeASIN=B0B287M553&ie=UTF8&linkCode=as2&tag=bookmeter_book_image_image_pc_logoff-22"
