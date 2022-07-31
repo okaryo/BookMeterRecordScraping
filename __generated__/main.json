@@ -1,6 +1,30 @@
 {
-    "recordsCount": 811,
+    "recordsCount": 813,
     "records": [
+        {
+            "date": "2022-07-31",
+            "review": "Audibleにて。開発チームのパフォーマンスを上げるために何か良い視点はないかと読んだ。書かれている方が営業の方なので内容やその前提が営業の人向けになっているが、動機づけによってパフォーマンスを最大化するという基本的な考え方や、共通の目標の設定、フィードバックなど共感しながら読める部分がいくつかあった。",
+            "book": {
+                "author": {"name": "横田 雅俊"},
+                "page": 204,
+                "title": "動機づけのマネジメント \u2015最高のマネジャーがやるべきたった1つのこと",
+                "url": "https://www.amazon.co.jp/dp/product/483342200X/ref=as_li_tf_tl?camp=247&creative=1211&creativeASIN=483342200X&ie=UTF8&linkCode=as2&tag=bookmeter_book_image_image_pc_logoff-22"
+            },
+            "format": "Audible",
+            "isRereading": false
+        },
+        {
+            "date": "2022-07-31",
+            "review": "『チームトポロジー』で何度も言及されていたので読んでみたがとても面白かった。最近の自分の関心事として、より良い価値提供のために技術以外の部分のパフォーマンスがあり、チームや組織はその一つだった。この本ではソフトウェア開発におけるチームや組織のパフォーマンスを向上させるケイパビリティについて科学的に調査・分析してその結果を解説していてドンピシャだった。この本についてのtexta.fmを聞いたり、改めてDevOpsや継続的デリバリについての体系的な知識をつけてこの本についての理解をもっと深めたいと思った。",
+            "book": {
+                "author": {"name": "Nicole Forsgren Ph.D.,Jez Humble,Gene Kim"},
+                "page": 320,
+                "title": "LeanとDevOpsの科学[Accelerate] テクノロジーの戦略的活用が組織変革を加速する (impress top gear)",
+                "url": "https://www.amazon.co.jp/dp/product/4295004901/ref=as_li_tf_tl?camp=247&creative=1211&creativeASIN=4295004901&ie=UTF8&linkCode=as2&tag=bookmeter_book_image_image_pc_logoff-22"
+            },
+            "format": "Paper",
+            "isRereading": false
+        },
         {
             "date": "2022-07-29",
             "review": "電子書籍にて。先日『良いウェブサービスを支える 「利用規約」の作り方』を読んで、エンジニアとして知っておくべき法律や権利関係を押さえておこうと思い読んだ。自分は会社員なので会社との労働契約は必ず関わってくるし、今のところフリーランスになる気はないとは言え普段の開発で業務委託の方々とも開発することがあるので請負や準委任といった開発契約も知ることができてよかった。また、普段何気なく書いたり使っているコードやアルゴリズム、フリー素材などの著作権といった開発に関わる権利関係についても知ることができた。",
@@ -9722,5 +9746,5 @@
             "isRereading": false
         }
     ],
-    "totalPages": 257495
+    "totalPages": 258019
 }
