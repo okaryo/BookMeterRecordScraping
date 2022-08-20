@@ -1,6 +1,30 @@
 {
-    "recordsCount": 813,
+    "recordsCount": 815,
     "records": [
+        {
+            "date": "2022-08-20",
+            "review": "Audibleにて。著者は病は気からを心から信じておりコロナのワクチンも打たないと言っていて、それ以降の内容は穿った見方しかできなくなってしまった。内容自体は薄いが、アドラー心理学の目的論や認知論、共同体感覚、課題の分離などの基本的なことには触れているので入門には良いとは思われる。一方、アドラー心理学の認知論のようにいくら世界の解釈が自分次第だとしても、科学的な事実までが変わるわけではない。アドラー心理学は思いこみの強い人や自称インフルエンサーのような人々に悪用されやすいんじゃないかとも思ってしまった。",
+            "book": {
+                "author": {"name": "小泉 健一"},
+                "page": 0,
+                "title": "アドラー心理学を実生活に取り入れてみた",
+                "url": "https://www.amazon.co.jp/dp/product/B09Z283X3X/ref=as_li_tf_tl?camp=247&creative=1211&creativeASIN=B09Z283X3X&ie=UTF8&linkCode=as2&tag=bookmeter_book_image_image_pc_logoff-22"
+            },
+            "format": "Audible",
+            "isRereading": false
+        },
+        {
+            "date": "2022-08-19",
+            "review": "Audibleにて。チームのパフォーマンスを高めるためにできることを探している一環で読んだ。承認やポジティブなコミュニケーションが個人やチームのやる気を盛り上げ、一方で否定的で責めることが目的のフィードバックではそれが落ち込む一方なのは多くの人が個人的体験として納得できるものに思う。そういったポジティブフィードバックの機能や効果について言語化され整理できた点で自分の中では読んで良かった本だった。",
+            "book": {
+                "author": {"name": "ヴィランティ牧野祝子"},
+                "page": 248,
+                "title": "国際エグゼクティブコーチが教える 人、組織が劇的に変わる ポジティブフィードバック",
+                "url": "https://www.amazon.co.jp/dp/product/4866673842/ref=as_li_tf_tl?camp=247&creative=1211&creativeASIN=4866673842&ie=UTF8&linkCode=as2&tag=bookmeter_book_image_image_pc_logoff-22"
+            },
+            "format": "Audible",
+            "isRereading": false
+        },
         {
             "date": "2022-07-31",
             "review": "Audibleにて。開発チームのパフォーマンスを上げるために何か良い視点はないかと読んだ。書かれている方が営業の方なので内容やその前提が営業の人向けになっているが、動機づけによってパフォーマンスを最大化するという基本的な考え方や、共通の目標の設定、フィードバックなど共感しながら読める部分がいくつかあった。",
@@ -9746,5 +9770,5 @@
             "isRereading": false
         }
     ],
-    "totalPages": 258019
+    "totalPages": 258267
 }
