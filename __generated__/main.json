@@ -1,6 +1,30 @@
 {
-    "recordsCount": 820,
+    "recordsCount": 822,
     "records": [
+        {
+            "date": "2022-09-21",
+            "review": "Audibleにて。創元日本SFアンソロジーGenesisの中の一作品らしい。人類が絶滅した遥か未来で、それでも人類によってデザインされた通りに惑星探索を単調に進めるアンドロイドたちの短編SF。単調作業を進める中で機械の中に芽生える「特別」や、人類をトレースしたかのような優しさや罪悪感や残虐性、綺麗な情景描写などSFというよりは文学のような印象を受けた。久々に小説を読んだ。この感情をうまく言葉にできないが、やっぱり小説を読むのは良いな。",
+            "book": {
+                "author": {"name": "久永 実木彦"},
+                "page": 0,
+                "title": "一万年の午後",
+                "url": "https://www.amazon.co.jp/dp/product/B091JGG6XQ/ref=as_li_tf_tl?camp=247&creative=1211&creativeASIN=B091JGG6XQ&ie=UTF8&linkCode=as2&tag=bookmeter_book_image_image_pc_logoff-22"
+            },
+            "format": "Audible",
+            "isRereading": false
+        },
+        {
+            "date": "2022-09-20",
+            "review": "Audibleにて。下巻も面白かった。合理的経済学派との議論や行動経済学の理論であるナッジの政策への導入と、行動経済学が学問の中で市民権を得ていく過程をセイラー先生自身の体験から解説していく。日本の政治や政策の中にも行動経済学から参考にしたようなものはあるんだろうか。理論も面白いが現実世界で行動経済学の理論がどう生きているのかにも興味を惹かれる。行動経済学を中心にその周辺の学問にも興味を持つことができた。もっと人間について知ってみたい。",
+            "book": {
+                "author": {"name": "リチャード・セイラ\u2015,Richard H. Thaler"},
+                "page": 368,
+                "title": "行動経済学の逆襲　下 (ハヤカワ文庫NF)",
+                "url": "https://www.amazon.co.jp/dp/product/4150505489/ref=as_li_tf_tl?camp=247&creative=1211&creativeASIN=4150505489&ie=UTF8&linkCode=as2&tag=bookmeter_book_image_image_pc_logoff-22"
+            },
+            "format": "Audible",
+            "isRereading": false
+        },
         {
             "date": "2022-09-16",
             "review": "最近個人開発でアプリを作っていて、その参考になるのではと勧められたので読んでみた。コンセプトとは何かからそのつくり方、実際のWiiにおける具体的なコンセプトワーク、リリース後のコンセプトの向き合い方とコンセプトにまつわるものをまるっと知ることができた。実際に自分でもビジョンやアイテムを考えてコンセプトを作ってみたり、有名なサービスやプロダクトのコンセプトを調べてみたりしようと思った。",
@@ -9830,5 +9854,5 @@
             "isRereading": false
         }
     ],
-    "totalPages": 259467
+    "totalPages": 259835
 }
