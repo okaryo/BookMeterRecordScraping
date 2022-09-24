@@ -2,7 +2,7 @@
 
 >**Note**
 >
->The functionality of this repository has been moved [book.okaryo.io/badge/scraping](https://github.com/okaryo/book.okaryo.io/tree/main/batch/scraping).
+>The functionality of this repository has been moved [book.okaryo.io/badch/scraping](https://github.com/okaryo/book.okaryo.io/tree/main/batch/scraping).
 
 # BookMeterRecordScraping
 
